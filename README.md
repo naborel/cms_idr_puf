@@ -1,6 +1,6 @@
 # CMS Federal IDR Public Use File (PUF) — Analysis Toolkit
 
-This repository contains aggregated parquet data and Python utilities for analyzing the **Federal Independent Dispute Resolution (IDR) Public Use Files** published by CMS, covering Q1 2022 through Q2 2025.
+This repository contains aggregated parquet data and Python utilities for analyzing the **Federal Independent Dispute Resolution (IDR) Public Use Files** published by CMS, covering Q1 2023 through Q2 2025.
 
 ---
 
