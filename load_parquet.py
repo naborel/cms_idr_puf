@@ -28,6 +28,8 @@ from pathlib import Path
 # ── Update to wherever your parquet files live ────────────────────────────────
 PARQUET_DIR = Path("./parquet")
 
+ENGINE = "fastparquet"
+
 def pq(filename):
     return PARQUET_DIR / filename
 
@@ -37,13 +39,13 @@ def load_all(include_puf=True):
     if include_puf:
         print("Loading PUF files...")
 
-        oon = pd.read_parquet(pq("oon_all_quarters.parquet"))
+        oon = pd.read_parquet(pq("oon_all_quarters.parquet"), engine=ENGINE)
         print(f"  oon:  {len(oon):>12,} rows  |  {oon['Quarter'].nunique()} quarters  |  {len(oon.columns)} columns")
 
-        qpa = pd.read_parquet(pq("qpa_all_quarters.parquet"))
+        qpa = pd.read_parquet(pq("qpa_all_quarters.parquet"), engine=ENGINE)
         print(f"  qpa:  {len(qpa):>12,} rows  |  {qpa['Quarter'].nunique()} quarters  |  {len(qpa.columns)} columns")
 
-        air = pd.read_parquet(pq("air_all_quarters.parquet"))
+        air = pd.read_parquet(pq("air_all_quarters.parquet"), engine=ENGINE)
         print(f"  air:  {len(air):>12,} rows  |  {air['Quarter'].nunique()} quarters  |  {len(air.columns)} columns")
 
     else:
@@ -52,37 +54,37 @@ def load_all(include_puf=True):
 
     print("\nLoading supplemental tables...")
 
-    supp_disputes_initiated = pd.read_parquet(pq("supp_summary_disputes_initiated.parquet"))
+    supp_disputes_initiated = pd.read_parquet(pq("supp_summary_disputes_initiated.parquet"), engine=ENGINE)
     print(f"  supp_disputes_initiated:   {len(supp_disputes_initiated):>6,} rows")
 
-    supp_provider_size = pd.read_parquet(pq("supp_provider_size.parquet"))
+    supp_provider_size = pd.read_parquet(pq("supp_provider_size.parquet"), engine=ENGINE)
     print(f"  supp_provider_size:        {len(supp_provider_size):>6,} rows")
 
-    supp_plan_type = pd.read_parquet(pq("supp_plan_type.parquet"))
+    supp_plan_type = pd.read_parquet(pq("supp_plan_type.parquet"), engine=ENGINE)
     print(f"  supp_plan_type:            {len(supp_plan_type):>6,} rows")
 
-    supp_closure_reasons = pd.read_parquet(pq("supp_closure_reasons.parquet"))
+    supp_closure_reasons = pd.read_parquet(pq("supp_closure_reasons.parquet"), engine=ENGINE)
     print(f"  supp_closure_reasons:      {len(supp_closure_reasons):>6,} rows")
 
-    supp_eligibility = pd.read_parquet(pq("supp_eligibility.parquet"))
+    supp_eligibility = pd.read_parquet(pq("supp_eligibility.parquet"), engine=ENGINE)
     print(f"  supp_eligibility:          {len(supp_eligibility):>6,} rows")
 
-    supp_state = pd.read_parquet(pq("supp_initiations_by_state.parquet"))
+    supp_state = pd.read_parquet(pq("supp_initiations_by_state.parquet"), engine=ENGINE)
     print(f"  supp_state:                {len(supp_state):>6,} rows")
 
-    supp_top_initiating = pd.read_parquet(pq("supp_top_initiating_parties.parquet"))
+    supp_top_initiating = pd.read_parquet(pq("supp_top_initiating_parties.parquet"), engine=ENGINE)
     print(f"  supp_top_initiating:       {len(supp_top_initiating):>6,} rows")
 
-    supp_top_noninitiating = pd.read_parquet(pq("supp_top_noninitiating_parties.parquet"))
+    supp_top_noninitiating = pd.read_parquet(pq("supp_top_noninitiating_parties.parquet"), engine=ENGINE)
     print(f"  supp_top_noninitiating:    {len(supp_top_noninitiating):>6,} rows")
 
-    supp_outcomes = pd.read_parquet(pq("supp_payment_determination_outcomes.parquet"))
+    supp_outcomes = pd.read_parquet(pq("supp_payment_determination_outcomes.parquet"), engine=ENGINE)
     print(f"  supp_outcomes:             {len(supp_outcomes):>6,} rows")
 
-    supp_cost_band = pd.read_parquet(pq("supp_qpa_by_cost_band.parquet"))
+    supp_cost_band = pd.read_parquet(pq("supp_qpa_by_cost_band.parquet"), engine=ENGINE)
     print(f"  supp_cost_band:            {len(supp_cost_band):>6,} rows")
 
-    supp_specialty = pd.read_parquet(pq("supp_qpa_by_specialty.parquet"))
+    supp_specialty = pd.read_parquet(pq("supp_qpa_by_specialty.parquet"), engine=ENGINE)
     print(f"  supp_specialty:            {len(supp_specialty):>6,} rows")
 
     print("\nAll files loaded.")
