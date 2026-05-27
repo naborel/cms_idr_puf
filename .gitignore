@@ -1,0 +1,19 @@
+# IDE
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+Untitled.ipynb
+
+# Python cache
+__pycache__/
+
+# Temp / exploratory files
+temp.csv
+chunk3.csv
+inspection.csv
+air.pkl
+oon.pkl
+qpa.pkl
+idr_full_2023_2025.parquet
+main.py
