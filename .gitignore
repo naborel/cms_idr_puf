@@ -1,0 +1,24 @@
+# Raw CMS data files (too large to commit)
+*.xlsx
+*.csv
+2023/
+2024/
+2025/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+
+# Misc
+*.html
+temp.*
