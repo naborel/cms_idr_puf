@@ -217,11 +217,16 @@ def force_string_cols(df):
     """
     Cast code/description columns to string.
     These come through as int in some xlsx quarters and str in others.
-    Null values become pd.NA rather than the string 'nan'.
+    Null values stay null. astype(str) turns a real NaN into the string
+    'nan' and a suppressed value (already pd.NA from the suppression-token
+    replace above) into the string '<NA>' -- mask both back to pd.NA based
+    on the original nullness rather than pattern-matching the string output,
+    since astype(str)'s null representation isn't consistent.
     """
     for col in FORCE_STR_COLS:
         if col in df.columns:
-            df[col] = df[col].astype(str).replace('nan', pd.NA)
+            s = df[col]
+            df[col] = s.astype(str).where(s.notna(), pd.NA)
     return df
 
 
