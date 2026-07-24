@@ -1,6 +1,6 @@
 # CMS Federal IDR Public Use Files — Processed Parquets
 
-This repo contains processed parquet files built from the CMS Federal Independent Dispute Resolution (IDR) Public Use Files, covering Q1 2023 through Q2 2025.
+This repo contains processed parquet files built from the CMS Federal Independent Dispute Resolution (IDR) Public Use Files, covering Q1 2023 through Q4 2025.
 
 The No Surprises Act established a federal arbitration process for out-of-network payment disputes between providers and health plans. CMS publishes quarterly data files on every dispute that went through that process.
 
@@ -10,18 +10,19 @@ The No Surprises Act established a federal arbitration process for out-of-networ
 
 | File | Description |
 |------|-------------|
-| `parquet/oon_all_quarters.parquet` | ~5.25M rows of OON Emergency & Non-Emergency disputes |
-| `parquet/qpa_all_quarters.parquet` | ~5.33M rows of QPA and dollar-level offer amounts |
-| `parquet/air_all_quarters.parquet` | ~77K rows of OON Air Ambulance disputes |
-| `parquet/supp_*.parquet` | 11 aggregated summary tables (provider size, plan type, state, outcomes, etc.) |
+| `parquet/oon_all_quarters.parquet` | ~8.23M rows of OON Emergency & Non-Emergency disputes |
+| `parquet/qpa_all_quarters.parquet` | ~8.34M rows of QPA and dollar-level offer amounts |
+| `parquet/air_all_quarters.parquet` | ~104K rows of OON Air Ambulance disputes |
+| `parquet/supp_*.parquet` | 11 aggregated summary tables (provider size, plan type, state, outcomes, etc.) — currently through Q2 2025; see [ADDING_A_QUARTER.md](ADDING_A_QUARTER.md) |
 
-The three main PUF files cover all 10 quarters concatenated into single tables. The supplemental files each cover a specific CMS-published summary table across all quarters.
+The three main PUF files cover all 12 quarters concatenated into single tables. The supplemental files each cover a specific CMS-published summary table across all quarters.
 
 Scripts:
-- `build_parquets.py` — rebuilds the three PUF parquets from raw CMS xlsx/csv files
+- `build_parquets.py` — rebuilds the three PUF parquets from scratch from raw CMS xlsx/csv files (full historical rebuild)
 - `build_supplemental.py` — rebuilds the supplemental parquets from the CMS supplemental xlsx files
 - `load_parquet.py` — convenience loader that reads all parquets into named dataframes
 - `idr_mappings.py` — provider and carrier domain maps (see below)
+- `puf_checker.py` / `puf_transform.py` / `puf_merge.py` — incremental pipeline for adding a newly-released quarter without a full rebuild; see [ADDING_A_QUARTER.md](ADDING_A_QUARTER.md)
 
 ---
 
@@ -65,6 +66,8 @@ The full domain-to-name mappings are in `idr_mappings.py`.
 
 ### File format changes across years
 2023 and 2024 data came as xlsx files (one file per quarter, multiple sheets). Starting in 2025, CMS switched to CSV. Additionally, the 2025 Q1 OON file was split into 2 chunks and the 2025 Q2 OON file into 3 chunks. The build script handles all of this transparently.
+
+Starting 2025 Q3, CMS introduced two new suppression markers (`^` and `+`/`*`) alongside the original `NR`/`N/R`, and added several new columns (`Certified IDR Entity`, `Date of Initiation`, `Service Code Modifier(s)`, and on QPA also `Cost-Sharing Amount`, `Initial Payment Amount`, `Year of Service`). See [ADDING_A_QUARTER.md](ADDING_A_QUARTER.md) for how new quarters like this get validated and merged in.
 
 ### Supplemental tables
 The CMS supplemental xlsx files are human-formatted Excel workbooks with stacked summary tables, not raw tabular data. We parse each named table out of the workbook by detecting its title row, extract the relevant rows, and normalize numeric columns. CMS also added a `Church Plan` column to Table 9 starting in 2025 Q1; earlier quarters have that column as null.
