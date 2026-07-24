@@ -147,6 +147,7 @@ FORCE_STR_COLS = [
     'Air Ambulance Vehicle Type',
     'Air Ambulance Vehicle Clinical Capacity Level',
     'Geographical Region',
+    'Service Code Modifier(s)',
 ]
 
 # Columns to convert to numeric after stripping currency formatting
@@ -167,10 +168,33 @@ NUMERIC_PATTERNS = [
     'IDRE Compensation',
 ]
 
+# QPA-specific numeric-pattern conversion. 'Offer' also substring-matches the
+# categorical 'Offer Selected from Provider or Issuer' column, so it must be
+# excluded -- it was invisible for years because that column was always empty
+# until CMS started populating it in 2025 Q3.
+QPA_NUMERIC_PATTERNS = ['QPA', 'Offer', 'Prevailing', 'Percent']
+QPA_NUMERIC_EXCLUDE = ['Offer Selected from Provider or Issuer']
 
-def convert_numeric_cols(df, patterns):
-    """Convert columns whose name contains any of the given substrings to numeric."""
+# CMS suppression/missing-data markers seen across quarters.
+# NR / N/R -- original markers (2023 Q1 onward).
+# ^        -- new in 2025 Q3, seen in QPA dollar columns (QPA, offers).
+# +, *     -- new in 2025 Q3, seen only in "offer as % of QPA" /
+#             "as Percent of Median" columns. Confirmed by sampling raw rows;
+#             both are redaction symbols, not data corruption.
+SUPPRESSION_TOKENS = ['NR', 'N/R', '^', '+', '*']
+
+
+def convert_numeric_cols(df, patterns, exclude=None):
+    """Convert columns whose name contains any of the given substrings to numeric.
+
+    exclude: column names to skip even if they match a pattern -- needed because
+    e.g. 'Offer' as a substring also matches the categorical column
+    'Offer Selected from Provider or Issuer'.
+    """
+    exclude = exclude or []
     for col in df.columns:
+        if col in exclude:
+            continue
         if any(p in col for p in patterns):
             df[col] = pd.to_numeric(df[col], errors='coerce')
     return df
@@ -244,7 +268,7 @@ def normalize(df, quarter):
     ]
 
     # 3. Replace CMS suppression/missing markers globally
-    df = df.replace({'NR': pd.NA, 'N/R': pd.NA})
+    df = df.replace({tok: pd.NA for tok in SUPPRESSION_TOKENS})
 
     # 4. Force code/description columns to string before any numeric conversion
     df = force_string_cols(df)
@@ -326,7 +350,7 @@ def build_qpa():
     print("\nConcatenating all quarters...")
     qpa = pd.concat(all_dfs, ignore_index=True)
 
-    qpa = convert_numeric_cols(qpa, ['QPA', 'Offer', 'Prevailing', 'Percent'])
+    qpa = convert_numeric_cols(qpa, QPA_NUMERIC_PATTERNS, exclude=QPA_NUMERIC_EXCLUDE)
     qpa = cast_object_numerics(qpa)
 
     print(f"QPA total rows:    {len(qpa):,}")
