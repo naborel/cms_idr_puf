@@ -4,6 +4,11 @@
 2023/
 2024/
 2025/
+Raw Files/
+federal-idr-puf-*/
+
+# the crosswalks ARE reference data, not raw input -- keep them despite *.csv above
+!carrier_map/*.csv
 
 # Python
 __pycache__/
@@ -18,7 +23,17 @@ __pycache__/
 # IDE
 .idea/
 .vscode/
+.claude/
 
-# Misc
+# Analysis output — this repo carries structure and data, not findings
+dashboard/
+METHODOLOGY.md
 *.html
+
+# Scratch
 temp.*
+*.bak
+*.bak[0-9]
+patch_*.py
+*.log
+parquet_rebuilt/
