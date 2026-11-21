@@ -592,6 +592,32 @@ SELECT bucket, cnt, round(100.0*cnt/(SELECT n FROM t),2) pct, ord FROM (
   UNION ALL SELECT '50×+', count(*), 7 FROM cont WHERE prm>=50
 ) ORDER BY ord"""))
 
+# Dollars behind each bracket. The OON file carries the line grain but no amounts; the QPA
+# file carries the amounts but no Dispute Number, so it cannot be joined. They are therefore
+# bucketed independently on the same multiple and the same contested filter, and the measured
+# line count travels with the dollars so the dashboard can say what it was measured on --
+# the QPA file covers ~93% of contested lines, not all of them.
+_ad = {r['bucket']: r for r in recs(Q(f"""
+WITH b AS (SELECT "QPA" q, "Prevailing Offer" p, "Prevailing Offer"/nullif("QPA",0) m
+           FROM read_parquet('{QPA}')
+           WHERE "QPA">0 AND "Prevailing Offer" IS NOT NULL
+             AND "Prevailing Offer"/nullif("QPA",0) BETWEEN {TRIM_LO} AND {TRIM_HI}
+             AND coalesce("Default Decision",'No')<>'Yes')
+SELECT bucket, ord, cnt dollar_lines, paid_musd, infl_musd, med_paid FROM (
+  SELECT '<1×' bucket,1 ord,count(*) cnt,round(sum(p)/1e6,1) paid_musd,
+         round(sum(p-q)/1e6,1) infl_musd,round(median(p),2) med_paid FROM b WHERE m<1
+  UNION ALL SELECT '1–2×',2,count(*),round(sum(p)/1e6,1),round(sum(p-q)/1e6,1),round(median(p),2) FROM b WHERE m>=1 AND m<2
+  UNION ALL SELECT '2–5×',3,count(*),round(sum(p)/1e6,1),round(sum(p-q)/1e6,1),round(median(p),2) FROM b WHERE m>=2 AND m<5
+  UNION ALL SELECT '5–10×',4,count(*),round(sum(p)/1e6,1),round(sum(p-q)/1e6,1),round(median(p),2) FROM b WHERE m>=5 AND m<10
+  UNION ALL SELECT '10–20×',5,count(*),round(sum(p)/1e6,1),round(sum(p-q)/1e6,1),round(median(p),2) FROM b WHERE m>=10 AND m<20
+  UNION ALL SELECT '20–50×',6,count(*),round(sum(p)/1e6,1),round(sum(p-q)/1e6,1),round(median(p),2) FROM b WHERE m>=20 AND m<50
+  UNION ALL SELECT '50×+',7,count(*),round(sum(p)/1e6,1),round(sum(p-q)/1e6,1),round(median(p),2) FROM b WHERE m>=50
+) ORDER BY ord"""))}
+for _r in D['prevailing_brackets']:
+    _x = _ad.get(_r['bucket'])
+    if _x:
+        _r.update({k: _x[k] for k in ('paid_musd','infl_musd','med_paid','dollar_lines')})
+
 D['extremes'] = recs(Q("""
 WITH t AS (SELECT count(prm) n FROM cont)
 SELECT (SELECT n FROM t) contested_n,

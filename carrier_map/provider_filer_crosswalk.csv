@@ -1,851 +1,851 @@
-provider_domain,lines,distinct_npis,filer_group,filer_type
-halomd.com,1067504,725,HaloMD,IDR specialist
-saparm.com,802057,4,Singleton Associates,Radiology group
-teamhealth.com,787572,155,TeamHealth,Physician group
-fam-llc.com,597768,243,F&A Management,RCM / billing vendor
-envisionhealth.com,418293,9614,Envision Healthcare,Physician group
-primehealthcare.com,353720,303,Prime Healthcare,Hospital / health system
-totalcare.us,306313,30,TotalCare ER,Emergency dept operator
-agshealth.com,285382,348,AGS Health,RCM / billing vendor
-bmhcc.org,233600,30,Baptist Memorial Health,Hospital / health system
-scp-health.com,231891,414,SCP Health,Physician group
-sonoranrm.com,215294,9,Sonoran Radiology,Radiology group
-mbbrm.com,151020,1,"Mori, Bean & Brooks",Radiology group
-qmacsmso.com,136051,88,QMACS MSO,RCM / billing vendor
-radpmg.com,114534,127,Houston Radiology Associated,Radiology group
-radixhealth.io,110408,719,Radix Health,RCM / billing vendor
-altushealthsystem.com,108176,67,Altus Community Healthcare,Emergency dept operator
-erevenuebilling.com,93752,31,eRevenue,RCM / billing vendor
-mdcapitaladvisors.com,93106,1215,MD Capital Advisors,RCM / billing vendor
-empireradrm.com,92145,2,Empire State Radiology,Radiology group
-specialtycare.net,91955,8,SpecialtyCare,Neuromonitoring (IONM)
-usap.com,84980,7,US Anesthesia Partners,Anesthesia group
-zotecpartners.com,81091,44,Zotec Partners,RCM / billing vendor
-iairm.com,79274,2,Imaging Associates of Indiana,Radiology group
-ventrahealth.com,79202,119,Ventra Health,RCM / billing vendor
-orthomedstaffing.com,75535,8,OrthoMed Staffing,Anesthesia group
-gottliebandgreenspan.com,71736,639,Gottlieb & Greenspan,Law firm
-callagyrecovery.com,69047,299,Callagy Law,Law firm
-vituity.com,63418,271,Vituity,Physician group
-roundtmc.com,62009,39,Round Table Physicians,Physician group
-hcahealthcare.com,60776,263,HCA Healthcare,Hospital / health system
-usacs.com,55321,67,US Acute Care Solutions,Physician group
-callagylaw.com,51738,798,Callagy Law,Law firm
-rightmedicalbilling.com,45812,55,Right Medical Billing,RCM / billing vendor
-soundphysicians.com,44619,34,Sound Physicians,Physician group
-apollomd.com,42406,58,ApolloMD,Physician group
-nmaiom.com,41787,22,NMA IONM,Neuromonitoring (IONM)
-complete.care,40612,52,Complete Care,Emergency dept operator
-commonspirit.org,39288,111,CommonSpirit Health,Hospital / health system
-r1rcm.com,38638,91,R1 RCM,RCM / billing vendor
-gmail.com,32419,496,Individual practitioner (free email),Individual
-scphealth.com,31536,239,SCP Health,Physician group
-forthesurgeons.com,27851,405,East Coast Advanced Plastic Surgery,Physician group
-radalliancerm.com,26482,2,Radiology Alliance,Radiology group
-aimbillingsolutions.com,25620,32,AIM Billing Solutions,RCM / billing vendor
-halkovichlaw.com,23389,176,Halkovich Law,Law firm
-memorialvillageer.com,23060,11,Memorial Village ER,Emergency dept operator
-adventhealth.com,22697,47,AdventHealth,Hospital / health system
-simplexmed.com,22517,65,Simplex Med,RCM / billing vendor
-legacyhealthllc.com,21724,16,Legacy ER,Emergency dept operator
-summit-az.com,20954,119,Summit Anesthesia Partners,Anesthesia group
-nosurprisebill.com,20484,47,No Surprise Bill,IDR specialist
-redrockrad.com,20350,5,Radiology Specialists,Radiology group
-provanesthesiology.com,19068,12,Providence Anesthesiology,Anesthesia group
-gryphonhc.com,19056,28,Gryphon Healthcare,RCM / billing vendor
-wellstar.org,18820,13,Wellstar,Hospital / health system
-unitedionm.com,18434,82,United IONM,Neuromonitoring (IONM)
-anesthesiadynamics.com,17765,25,Anesthesia Dynamics,Anesthesia group
-pediatrix.com,16456,423,Pediatrix Medical Group,Physician group
-smirm.com,16334,1,Specialists in Medical Imaging,Radiology group
-logixhealth.com,12866,27,LogixHealth,RCM / billing vendor
-ftpbilling.com,12693,8,FTP Billing,RCM / billing vendor
-neighborshealth.com,12643,14,Neighbors Health,Emergency dept operator
-alldatahealth.com,12364,119,AllData Health,RCM / billing vendor
-omsmedbilling.com,12294,9,OrthoMed Staffing,Anesthesia group
-preferredbillingaz.com,12287,208,Preferred Billing AZ,RCM / billing vendor
-americaser.com,11440,21,America's ER,Emergency dept operator
-heightsrcm.com,11239,4,Heights RCM,RCM / billing vendor
-saintfrancis.com,10047,5,Saint Francis Health,Hospital / health system
-collaborativeimaging.com,8823,1,Collaborative Imaging,Radiology group
-victoriaemergency.com,8779,3,Victoria Emergency Partners,Emergency dept operator
-bellaireer.com,8015,10,Bellaire ER,Emergency dept operator
-syntechhealth.com,7008,6,Sun City Emergency Room,Emergency dept operator
-natera.com,6721,5,Natera,Physician group
-totalpointcare.com,6578,19,Total Point ER,Emergency dept operator
-idrnsa.com,6143,12,IDR NSA,IDR specialist
-afslaw.com,5428,198,ArentFox Schiff,Law firm
-islandprofessionalbilling.com,5363,59,Island Professional Billing,RCM / billing vendor
-premierchoicebill.com,4842,76,Premier Choice Billing,RCM / billing vendor
-em-specialists.org,4767,11,EM Specialists,Physician group
-neuroendomke.com,4733,12,Spine & Brain Institute of Wisconsin,Neuromonitoring (IONM)
-onet-systems.com,4570,55,ONET Systems,RCM / billing vendor
-epiomneuro.com,4550,39,EPIOM Neuro,Neuromonitoring (IONM)
-usrcm.net,4408,81,US RCM,RCM / billing vendor
-macservicesllc.com,4331,74,MAC Services,RCM / billing vendor
-brownphysicians.org,3951,1,Brown Emergency Medicine,Physician group
-healthworksbetter.com,3883,11,HealthWorks,RCM / billing vendor
-tenethealth.com,3743,35,Tenet Healthcare,Hospital / health system
-medhealthfinancial.com,3731,5,MedHealth Financial,RCM / billing vendor
-accessradrm.com,3691,1,Radiology Associates of Southwest,Radiology group
-racrm.com,3505,1,Radiology Associates of Canton,Radiology group
-bergenanesthesiagroup.com,3480,2,Bergen Anesthesia,Anesthesia group
-civie.com,3437,1,Collaborative Imaging,Radiology group
-clearchoiceer.com,3182,2,Clear Choice ER,Emergency dept operator
-saguaroanesthesia.com,2880,5,Saguaro Anesthesia,Anesthesia group
-longislandbrainandspine.com,2848,16,Long Island Brain & Spine,Physician group
-assa-nj.com,2822,5,Atlantic Shore Surgical,Physician group
-shands.ufl.edu,2788,3,UF Health Shands,Hospital / health system
-midstateradrm.com,2762,1,Murfreesboro Radiology,Radiology group
-ecp.net,2712,15,Illinois Emergency Medicine Specialists,Physician group
-wincherbilling.com,2611,10,Sun City Emergency Room,Emergency dept operator
-elitebillingllc.com,2570,8,East Coast Advanced Plastic Surgery,Physician group
-aol.com,2535,33,Individual practitioner (free email),Individual
-prestigemedicalbill.com,2526,9,Prestige Medical Billing,RCM / billing vendor
-jphealth.net,2518,2,JP Health,RCM / billing vendor
-ihcsaz.com,2394,4,Fountain Hills Medical Center,Emergency dept operator
-sbsbilling.com,2392,9,SBS Billing,RCM / billing vendor
-wolfepincavage.com,2344,35,Wolfe Pincavage,Law firm
-magmemphis.com,2337,1,Medical Anesthesia Group,Anesthesia group
-ascentemc.com,1968,2,Ascent Emergency,Emergency dept operator
-glynnlegal.com,1943,22,Glynn Legal,Law firm
-vipmedicalmanagement.com,1938,5,VIP Medical Management,RCM / billing vendor
-integrityrcmcorp.com,1927,23,Integrity RCM,RCM / billing vendor
-nsabilling.com,1709,47,NSA Billing,RCM / billing vendor
-swiftstar.com,1697,3,Swift Star,RCM / billing vendor
-medbill-assoc.com,1684,31,MedBill Associates,RCM / billing vendor
-uickc.com,1517,2,United Imaging Consultants,RCM / billing vendor
-karisbilling.us,1514,8,Karis Billing,RCM / billing vendor
-expresserbilling.com,1484,4,Express ER Billing,RCM / billing vendor
-gbmc.org,1457,1,Greater Baltimore Medical Center,Hospital / health system
-mlsmedbill.com,1454,21,MLS Medical Billing,RCM / billing vendor
-prevailrcm.com,1401,11,Prevail RCM,RCM / billing vendor
-mlanesthesia.com,1365,13,ML Anesthesia,Anesthesia group
-usneuro.net,1308,15,Advanced Neuro Solutions,Neuromonitoring (IONM)
-khcfirm.com,1270,66,KHC Firm,Law firm
-texashealth.org,1242,26,Texas Health Resources,Hospital / health system
-neurologiciom.com,1234,3,Neurologic IOM,Neuromonitoring (IONM)
-apexionm.com,1178,11,Apex IONM,Neuromonitoring (IONM)
-stormontvail.org,1167,3,Stormont Vail Health,Hospital / health system
-njbrainspinebilling.com,1166,37,NJ Brain & Spine Billing,RCM / billing vendor
-ansmonitoring.com,1162,10,Advanced Neuro Solutions,Neuromonitoring (IONM)
-yahoo.com,1152,37,Individual practitioner (free email),Individual
-maineneonatology.com,1134,4,,
-paragonanesthesia.com,1133,3,,
-kyleer.com,1115,2,,
-lhs.org,1107,7,,
-zanexmed.com,1075,3,,
-hkanesthesia.com,1051,3,,
-atlanticneurocare.com,1044,7,,
-sycamoremm.com,1007,5,,
-practicemax.com,994,38,,
-chsli.org,958,11,,
-globusmedical.com,946,3,,
-recoveryspecialist.org,917,3,,
-spinepainsolutions.com,911,3,,
-christushealth.org,900,22,CHRISTUS Health,Hospital / health system
-bjc.org,894,12,,
-lonestar24hrer.com,860,2,,
-pelmed.com,832,20,Hudson Regional billing,RCM / billing vendor
-agilityrcm.com,832,33,,
-solestra.net,771,12,,
-mmbcontact.com,770,29,,
-smsneuro.com,767,8,,
-arbcollections.com,759,65,,
-northwell.edu,738,84,,
-md-management.net,704,85,,
-nwrcm.com,683,15,,
-uniteddx.com,675,26,,
-cityorthosports.com,673,3,,
-ipsmed.com,672,5,,
-ssmhealth.com,640,21,,
-northstaranesthesia.com,630,3,,
-metrohealthbill.net,626,1,,
-medexservices.com,607,23,,
-cnsomd.com,574,4,,
-vituity.onmicrosoft.com,565,4,,
-brault.us,549,14,,
-coaxialneuro.com,546,2,,
-bssny.com,533,6,,
-elitebillingandcollection.com,529,38,,
-aarpc.com,525,15,,
-practicewithease.com,496,7,,
-erkaty.com,492,2,,
-nextlevelcodingllc.com,490,6,,
-ptanc.com,489,1,,
-ventrasecure.com,483,6,,
-fellowhealthpartners.com,482,7,,
-mccancemd.com,481,4,,
-hsg.healthcare,472,13,,
-parallon.com,457,32,,
-njbcenter.com,455,13,,
-phampllc.com,446,4,,
-ssc-nashville.com,434,44,,
-boosthealthcare.com,416,5,,
-altairhealth.com,404,11,,
-nsb.solutions,403,23,,
-mediclaimsservices.org,398,7,,
-gen2med.com,375,1,,
-dfwanesthesiology.com,370,4,,
-ehc24.com,369,7,,
-aclapath.com,351,1,,
-nghs.com,341,4,,
-oali.com,339,2,,
-atriumhealth.org,331,19,,
-smh.com,327,2,,
-cohenhoward.com,324,52,,
-datamarshall.com,310,4,,
-fpsmedicalbilling.com,307,5,,
-intneuro.org,304,1,,
-spechealth.com,304,3,,
-proficiosurgical.com,302,3,,
-pswdocs.com,300,5,,
-corevant.com,296,22,,
-neurodynamicsinc.org,293,1,,
-chs.net,292,11,,
-billwell.net,287,40,,
-avika-bs.com,283,19,,
-aetna.com,267,4,,
-spinedrs.com,262,4,,
-imail.org,258,20,,
-plutushealthinc.com,253,3,,
-phsi.us,252,22,,
-spinecarelongisland.com,247,5,,
-sanfordhealth.org,242,13,,
-aspirion.com,235,24,,
-vgabilling.com,229,10,,
-e-codesolutions.com,227,7,,
-mlh.org,227,4,,
-neurosurgerycnj.com,226,2,,
-minevichlawgroup.com,225,6,,
-northstardoc.com,222,1,,
-lihandcenter.com,222,4,,
-ahsrcm.com,219,2,,
-nybg.com,216,3,,
-emoryhealthcare.org,215,6,,
-allianceortho.com,210,10,,
-drsalas.com,208,1,,
-kofinas.org,201,6,,
-shbcllc.com,199,4,,
-nybrainspine.com,193,3,,
-beinhakerlaw.com,193,5,,
-alliancebc.net,189,12,,
-myspsdocs.com,184,4,,
-armc.sbcounty.gov,179,2,,
-ariesrcm.com,176,4,,
-pephealth.net,172,3,,
-healthclaimpartners.com,168,12,,
-ensemblehp.com,167,6,,
-sassonplasticsurgery.com,160,3,,
-healthsystem.com,159,3,,
-doctorscga.com,158,2,,
-anthem.com,157,9,,
-siparadigm.com,156,2,,
-bracewell.com,155,22,,
-crmcwy.org,154,2,,
-gsbwc.com,152,7,,
-alliesclinic.com,151,1,,
-szglaw.com,151,6,,
-victoriaemergeny.com,150,0,,
-plssurgery.com,150,3,,
-advocatehealth.org,149,15,,
-renown.org,146,3,,
-medicaldebt.net,144,2,,
-guardanthealth.com,141,1,,
-promedbillingsvs.com,137,3,,
-precisionmedarb.com,134,6,,
-froedtert.com,134,3,,
-docs4docs360.com,133,1,,
-lmesq.com,130,5,,
-bmcjax.com,127,1,,
-mayo.edu,125,8,,
-spinemedli.com,124,3,,
-mvmhealth.com,122,2,,
-bgc-law.com,113,7,,
-atlanticbrainandspine.org,111,0,,
-mountsinai.org,111,2,,
-icare-er.com,103,4,,
-hudsonneurosurgery.com,101,2,,
-affinitymedsol.com,99,8,,
-wellspan.org,98,6,,
-seacoastspine.com,97,1,,
-medallioncm.com,96,3,,
-solutionsfmb.com,96,1,,
-halifax.org,94,2,,
-probillusa.com,94,4,,
-lcabinskylaw.com,91,20,,
-curamedgroup.com,86,1,,
-piedmont.org,83,16,,
-strg-pa.com,82,1,,
-millermilone.com,81,9,,
-alldataheatlh.com,81,3,,
-secureabeo.com,80,1,,
-zelis.com,79,7,,
-arsahealth.com,78,6,,
-aah.org,78,11,,
-uhc.com,77,16,,
-medstar.net,76,1,,
-correctcareinc.com,74,2,,
-hbcmd.com,73,3,,
-gottusolaw.com,72,3,,
-colemedical.com,66,3,,
-laredoemergency.com,64,0,,
-resourceone-llc.com,62,2,,
-orthosurgteam.com,61,2,,
-utrad.com,61,1,,
-nphllc.com,59,2,,
-alpinerevenuemanagement.com,57,4,,
-primhealthcare.com,56,0,,
-njss.net,56,4,,
-sweetwatermemorial.com,55,1,,
-siparadig.com,53,2,,
-slhs.org,53,5,,
-nosuprisebill.com,50,1,,
-collectionpro.com,49,8,,
-adelfimbs.com,45,12,,
-sapientlogic.com,44,1,,
-amprocesses.com,43,1,,
-savantmeddata.com,43,1,,
-accuratedebt.net,42,5,,
-p1rs.com,42,1,,
-hotmail.com,42,5,Individual practitioner (free email),Individual
-devington.com,41,3,,
-wisestaffbilling.com,40,2,,
-eamedbill.com,40,5,,
-pedsneurosurgerynj.com,40,1,,
-hubcarepath.com,40,1,,
-mssm.edu,39,3,,
-multiplan.com,38,14,,
-hpiinc.com,37,1,,
-assureiom.com,36,2,,
-onwusurgical.com,36,1,,
-clearhs.com,36,8,,
-arentfox.com,36,4,,
-thenathlawfirm.com,35,1,,
-outlook.com,35,1,Individual practitioner (free email),Individual
-multicare.org,35,7,,
-beverlyhillsherniacenter.com,35,2,,
-nymedsol.com,35,1,,
-od-ns.com,34,6,,
-aoundphysicians.com,34,1,,
-ccf.org,33,8,,
-hamidmirmd.com,31,2,,
-jenkinsneurospine.com,30,1,,
-malvernridgesolutions.com,30,2,,
-lakenormanofs.com,30,1,,
-circadianbg.com,30,1,,
-axisneuro.com,30,4,,
-superesq.com,29,2,,
-phoenix-rcm.com,29,2,,
-forthesugeons.com,28,14,,
-saparm.comc,28,1,,
-primeheathcare.com,28,0,,
-lvlgroup.com,26,1,,
-cigna.com,26,4,,
-upmc.edu,26,10,,
-ventraheal.com,26,0,,
-peakmedbilling.net,26,6,,
-ppmaltd.com,26,1,,
-exceptionalidr.com,26,2,,
-lvl1grp.com,26,2,,
-lipsg.com,25,6,,
-summitdocs.com,25,3,,
-fmolhs.org,24,3,,
-billingiom.com,24,4,,
-spspc.org,24,2,,
-mehlingbilling.com,24,3,,
-pnsnj.com,24,1,,
-hcahealtcare.com,23,9,,
-essentiahealth.org,23,14,,
-harrisplasticsurgery.com,23,2,,
-hsc.utah.edu,23,1,,
-sidneyrmc.com,23,1,,
-saintlukeskc.org,23,4,,
-sonoranrm.comc,22,1,,
-chomp.org,22,2,,
-floresvillehealth.com,22,1,,
-leverngear.com,21,14,,
-bcbstx.com,21,5,,
-redefinemanagement.filevineapp.com,21,4,,
-cmbilling.net,20,5,,
-primehealhcare.com,20,0,,
-newyorkurologyspecialists.com,20,1,,
-suffolksurgery.com,20,1,,
-primehealth.com,20,1,,
-fairview.org,19,2,,
-nspc.com,19,9,,
-primehealthcae.com,19,0,,
-pritipatelmd.com,19,3,,
-1021park.com,19,1,,
-oharemedbill.com,19,1,,
-quantumrad.com,19,1,,
-gottleibandgreenspan.com,19,2,,
-envisionhealth.comd,18,2,,
-lnaapa.com,18,1,,
-perfecture.com,18,1,,
-guardianeuro.com,18,1,,
-envisionhealth.comqpqpa,18,1,,
-johnmuirhealth.com,18,2,,
-adventhealth.comv,17,1,,
-med-net.info,17,3,,
-fam-ll.com,17,1,,
-patriotcompli.com,16,4,,
-selfregional.org,16,1,,
-saparm.comq,16,1,,
-revenuebilling.com,16,1,,
-drnimapatel.com,16,1,,
-empireradrm.co,15,1,,
-physicianbillingsolutions.net,15,0,,
-nycosmeticmd.com,15,3,,
-zotecpartnerc.com,15,0,,
-mdcapitalavisors.com,14,14,,
-northjerseyvascular.com,14,1,,
-tosmny.com,14,4,,
-airmethods.com,14,1,,
-sluhn.org,14,6,,
-lvlgrp.com,14,1,,
-newneurons.net,14,0,,
-altushealth.com,14,4,,
-froedtertsouth.com,13,1,,
-nwendometriosis.com,13,4,,
-radpa.com,13,1,,
-verizon.net,13,1,,
-envsionhealth.com,13,1,,
-saparm.com424-352-0743,13,1,,
-omegahms.com,13,1,,
-saint-lukes.org,12,3,,
-asterobgyn.com,12,4,,
-linked2care.com,12,5,,
-lafayetteheart.com,12,1,,
-centralorthopedicgroup.com,12,1,,
-spine-nj.com,12,1,,
-bcbsk.com,12,1,,
-adrightmedicalbilling.com,12,1,,
-arietishealth.com,12,1,,
-mdnmedicalbilling.com,12,5,,
-drprpa.com,12,1,,
-ecommunity.com,12,4,,
-grewalspine.com,11,2,,
-ccsamd.com,11,1,,
-mcallener.com,11,0,,
-jkcdocs.com,11,1,,
-nwappc.com,11,0,,
-billdex.org,10,2,,
-cchmc.org,10,1,,
-primehealthcare.com125.60,10,0,,
-pepheath.net,10,0,,
-hrmd.com,10,2,,
-nuvasive.com,10,2,,
-track.idrclaims.com,10,4,,
-pedatrix.com,10,2,,
-surgerymattersllc.com,10,3,,
-srhc.com,10,2,,
-uscas.com,10,1,,
-foxxware.com,9,2,,
-prremierchoicebill.com,9,1,,
-fam-llc.comv,9,1,,
-lpnt.net,9,5,,
-hkmpp.com,9,2,,
-callagrecovery.com,9,0,,
-valleychildrens.org,9,1,,
-divitiaembs.com,9,4,,
-optonline.net,8,2,,
-centrahealth.com,8,3,,
-ymail.com,8,2,,
-collectrx.com,8,2,,
-medloopus.com,8,2,,
-esasurgery.com,8,2,,
-qumacsmso.com,8,4,,
-bayhealth.org,8,2,,
-forthesurgeon.com,8,8,,
-synergenhealth.com,8,1,,
-cornellmedclaim.com,8,3,,
-bannerhealth.com,8,6,,
-peditrix.com,8,1,,
-pier17pmm.com,7,1,,
-hcmsus.com,7,3,,
-bhattlawgroup.com,7,2,,
-reproductiveimmunology.com,7,1,,
-longislandbraindandspine.com,7,1,,
-gnrasst.com,7,0,,
-aristaadvantage.com,7,2,,
-soundphysicins.com,7,1,,
-med-metrix.com,7,3,,
-horizonblue.com,6,3,,
-mettahealth.org,6,1,,
-njms.rutgers.edu,6,1,,
-transformweightlossllc.com,6,1,,
-medrecoverysolutions.com,6,1,,
-baycare.org,6,5,,
-trinity-health.org,6,4,,
-artplasticsurgeons.com,6,3,,
-laurelchandlermd.com,6,1,,
-winchebilling.com,6,0,,
-ncpsmd.com,6,1,,
-infamedics.com,6,1,,
-mbbrm.comf,6,1,,
-transformweightloss.com,6,1,,
-mbbrm.comr,6,1,,
-ascendarbitration.com,6,5,,
-wakehealth.edu,6,2,,
-versiti.org,6,1,,
-integrityrcm.com,6,2,,
-knowtionhealth.com,6,5,,
-medwork.io,6,3,,
-iorthomd.com,5,1,,
-premierhosp.com,5,1,,
-alldathealth.com,5,0,,
-bcbst.com,5,2,,
-piomneuro.com,5,1,,
-klausnerinstitute.com,5,1,,
-acuetrcm.com,5,1,,
-alldathaealth.com,5,0,,
-phxsurgery.com,5,1,,
-azweightlossclinic.com,5,1,,
-summitanesthesiaarbitration.com,5,5,,
-ambpllc.com,5,1,,
-nmbs1.com,5,3,,
-clearhealthcloud.com,5,2,,
-specialtyaestheticsurgery.com,5,1,,
-smsneuro.comqaalerts,5,1,,
-crmcollect.com,5,2,,
-gpsmdpc.com,5,1,,
-unitedx.com,5,1,,
-dreyfuss.com,5,4,,
-nebraskamed.com,5,2,,
-precisionhub.com,5,1,,
-neauroendomke.com,5,2,,
-rightmedicalbilling.comq,5,1,,
-castlebiosciences.com,5,2,,
-careplusmp.com,5,0,,
-bayortho.com,5,1,,
-monitoringconcepts.net,5,4,,
-ketteringhealth.org,5,4,,
-amerorthopaedics.com,4,1,,
-wvumedicine.org,4,3,,
-valleywidesurgical.com,4,3,,
-supmedmgmt.com,4,2,,
-mdcapitaladvsors.com,4,1,,
-eiomneuro.com,4,1,,
-pediatix.com,4,1,,
-mederiservices.com,4,2,,
-edwinkwon.com,4,1,,
-med.cornell.edu,4,2,,
-stoughtonhealth.com,4,1,,
-envisionhealth.comq,4,1,,
-greathealthprovider.fake,4,1,,
-alldataheallth.com,4,0,,
-fam-llc.om,4,2,,
-callagyreccovery.com,4,0,,
-callagryrecovery.com,4,0,,
-soundphysicains.com,4,1,,
-"",4,2,,
-callagylaw.co,4,0,,
-forthesurgesons.com,4,3,,
-claim-doc.com,4,1,,
-northjerseyspinegroup.com,4,1,,
-rush.edu,4,1,,
-sonoranrm.comq,4,1,,
-aventhealth.com,3,1,,
-optimaanesthesia.com,3,0,,
-fortheusrgeons.com,3,2,,
-md-management.com,3,1,,
-azvitallaw.com,3,1,,
-omsmedbiling.com,3,1,,
-fothesurgeons.com,3,3,,
-spinecaremanagement.com,3,0,,
-simplexmerd.com,3,2,,
-bcbsm.com,3,1,,
-callgyrecovery.com,3,0,,
-crossbaymedical.com,3,1,,
-preferredbilingaz.com,3,3,,
-apsns.net,3,1,,
-scp-health.co,3,1,,
-alliancehealthsystems.com,3,1,,
-njbrainspinebiling.com,3,2,,
-craigbaldenhofermd.com,3,1,,
-rtmc.com,3,1,,
-soundphysicans.com,3,1,,
-nkch.org,3,1,,
-fam-llc.comt,3,1,,
-mercer-health.com,3,1,,
-smiplexmed.com,3,1,,
-aaot.org,3,1,,
-md-management.ne,3,3,,
-ebillingsolutions.net,3,2,,
-nmaiiom.com,3,1,,
-epiomneuro.cm,3,1,,
-halomad.com,3,1,,
-mainehealth.org,3,2,,
-iairm.comb,3,1,,
-fam-llc.com3,3,1,,
-cloudmed.com,3,3,,
-r1rcm.comq,2,0,,
-aspirus.org,2,1,,
-houstonmethodist.org,2,0,,
-erlanger.org,2,2,,
-ameriaser.com,2,2,,
-envisionhealth.com560,2,1,,
-primesurgicare.com,2,1,,
-hcahealth.com,2,1,,
-mbbrm.comx,2,1,,
-scp-health.comq,2,2,,
-omsfoxcities.com,2,1,,
-totalcare.com,2,2,,
-agshealth.comq,2,2,,
-liap.info,2,1,,
-mdcapitaladvisors.com71,2,1,,
-frthesurgeons.com,2,1,,
-orthomedbilling.com,2,1,,
-drdaviddupree.com,2,1,,
-smirm.comq,2,1,,
-usap.om,2,1,,
-eiltebillingllc.com,2,1,,
-mbbrm.comq,2,1,,
-envisionhealth.com5,2,1,,
-atlanticnueorcare.com,2,0,,
-stiebermd.com,2,1,,
-earthlink.net,2,1,,
-aim.com,2,0,,
-baycare.net,2,1,,
-iairm.com424-352-0743,2,1,,
-iwncherbilling.com,2,0,,
-halomd.com0000000,2,1,,
-allstarssurgical.com,2,1,,
-alignedortho.com,2,1,,
-scp-health.comc,2,1,,
-uscs.com,2,1,,
-elitebillingandcollections.com,2,1,,
-corercm.com,2,2,,
-tesslermd.com,2,1,,
-ramapo.edu,2,2,,
-caromonthealth.org,2,1,,
-secureventra.com,2,1,,
-performancerehabnj.com,2,1,,
-paaragonanesthesia.com,2,1,,
-spineepainsolutions.com,2,1,,
-collaborativeimaging.com71,2,1,,
-totalcrae.us,2,1,,
-globalhealthcareresource.com,2,2,,
-trinitydialysisclinic.com,2,1,,
-nosurpriseill.com,2,1,,
-americaer.com,2,2,,
-rightmedialbilling.com,2,1,,
-envisionhealth.comv,2,2,,
-mebill-assoc.com,2,1,,
-iairm.comq,2,1,,
-houstoncraniofacial.com,2,1,,
-merrifieldlaw.com,2,0,,
-aristasolutionsinc.com,2,2,,
-commonsclinic.com,2,1,,
-alladathealth.com,2,0,,
-epilepsygroup.com,2,1,,
-amerciaser.com,2,1,,
-gottlebandgreenspan.com,1,0,,
-provanesthesiology.co,1,1,,
-pchonline.org,1,0,,
-synergy-hp.com,1,1,,
-orthomedstaffing.comy7777777777,1,1,,
-bmhcc.o3rg,1,1,,
-shbcllc.om,1,1,,
-neurodiagnostictex.com,1,0,,
-halomd.come,1,1,,
-synapsesiom.com,1,1,,
-smirm.comc,1,1,,
-modernorthonj.com,1,1,,
-ameriacaser.com,1,1,,
-survivalflightinc.com,1,1,,
-greenbergcosmeticsurgery.com,1,1,,
-primehealthcare.comq,1,0,,
-totalcare.is,1,1,,
-islandprofessionalbilling.om,1,1,,
-mdcapital.com,1,1,,
-mdcaptialadvisors.com,1,1,,
-altamed.com,1,0,,
-onet-sytems.com,1,1,,
-verdicalrcm.com,1,1,,
-uhsinc.com,1,1,,
-islandprofessionabilling.com,1,1,,
-r1rc.mcom,1,1,,
-lihandccenter.com,1,1,,
-riversideer.com,1,1,,
-mmclawgroup.com,1,1,,
-forthesurgeons.cm,1,1,,
-familyemergencyroom.com,1,1,,
-atlanticpediatricorthopedics.com,1,1,,
-cortho.org,1,0,,
-ilandprofessionalbilling.com,1,1,,
-springtidehealth.com,1,1,,
-restorationortho.com,1,1,,
-miamibeachplasticsurgery.com,1,1,,
-halomd.comvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv,1,1,,
-racrm.comq,1,1,,
-toyalcare.us,1,1,,
-bossrabinowitz.com,1,1,,
-syntechhealth.comq,1,1,,
-forthesurgoens.com,1,1,,
-gotliebandgreenspan.com,1,0,,
-northjerseyneuro.com,1,0,,
-envisionhealth.como,1,1,,
-tprsg.com,1,1,,
-specializedrevenue.com,1,1,,
-palmettopain.net,1,0,,
-elitebilling.com,1,1,,
-healthplansinc.com,1,1,,
-provanesthesiology.com509.97,1,1,,
-ivinsonhospital.org,1,1,,
-unitrddx.com,1,1,,
-wicnherbilling.com,1,1,,
-specialtycare.netr,1,1,,
-levinsolutions.com,1,1,,
-bcbsil.com,1,1,,
-hera-health.com,1,1,,
-tottalcare.us,1,1,,
-preferrredbillingaz.com,1,1,,
-saparm.com-b,1,1,,
-totalcarte.us,1,1,,
-amricaser.com,1,1,,
-empireradrm.comq,1,1,,
-assa.nj.com,1,1,,
-omsmedbillling.com,1,1,,
-nmaiom.co,1,1,,
-nutexhealth.com,1,1,,
-schealth.com,1,1,,
-halomd.comw,1,1,,
-quickmedclaims.com,1,1,,
-northstarrcts.com,1,1,,
-villagehealth.care,1,1,,
-umcsn.com,1,1,,
-wisemedicalbilling.com,1,1,,
-sonoranrm.comm,1,1,,
-islandprofessionlbilling.com,1,1,,
-sapientlogic.cfom,1,1,,
-apcjc.com,1,0,,
-qualchoice.com,1,0,,
-adventhealt.com,1,1,,
-expressemergencyroom.com,1,1,,
-eliteneurophysiology.com,1,1,,
-haldmd.com,1,1,,
-clearskiesanesthesia.com,1,0,,
-altushealthysystem.com,1,1,,
-mbmplus.org,1,1,,
-gottliebandgreespan.com,1,0,,
-networkspine.com,1,1,,
-ftpbilling.comm,1,1,,
-forthesurgeons.ccom,1,0,,
-aac-md.com,1,0,,
-millermilone.ccom,1,1,,
-azblue.com,1,1,,
-bellairer.com,1,1,,
-rcha.net,1,1,,
-usap.co,1,1,,
-envisionhealth.comvnjac48,1,0,,
-interhealthsolutions.com,1,1,,
-untieddx.com,1,1,,
-whn.care,1,0,,
-envisionhealth.co,1,1,,
-forthesurgions.com,1,1,,
-wincherbiilling.com,1,0,,
-foundationmedicine.com,1,1,,
-e-billingsolutions.net,1,1,,
-saparm.comz,1,1,,
-med.umich.edu,1,1,,
-commonspirti.org,1,0,,
-agshealth.comanie,1,1,,
-optum.com,1,1,,
-medhealtfinancial.com,1,1,,
-tech-med.com,1,1,,
-mlanesthesia.co,1,1,,
-rdlbilling.com,1,1,,
-gottliebandgreenspand.com,1,0,,
-toetalnyc.com,1,1,,
-forthesuregons.com,1,1,,
-memorialhermann.com,1,1,,
-oaaweb.com,1,1,,
-mlacinc.com,1,1,,
-uniteidonm.com,1,1,,
-preferedbillingaz.com,1,1,,
-longislandbrainandspine.com.com,1,1,,
-childrens.com,1,1,,
-cnsmd.com,1,1,,
-mlh.ort,1,1,,
-mlanesthesia.comm,1,1,,
-scp-health.com337-609-2720,1,0,,
-njbcener.com,1,1,,
-ams-md.com,1,0,,
-mhnetwork.org,1,1,,
-phiairmedical.com,1,1,,
-summacare.com,1,1,,
-gottlievandgreenspan.com,1,0,,
-atlanticneurorcare.com,1,0,,
-parkavenuemedicine.com,1,1,,
-iaatpa.com,1,0,,
-uiowa.edu,1,0,,
-r1rcm.comaetna,1,1,,
-gmail.co,1,1,,
-luriechildrens.org,1,1,,
-healthcare.com,1,1,,
-ftp.com,1,1,,
-forthesurgeon.coms,1,1,,
-radpmg.comom,1,0,,
-gottliebandgreenpan.com,1,0,,
-aah.com,1,0,,
-gottliebandgreendspan.com,1,0,,
-mediservltd.com,1,1,,
-lihandcdenter.com,1,1,,
-mlh.og,1,1,,
-browphysicians.org,1,1,,
-totalcare.ussh,1,1,,
-omemedbilling.com,1,1,,
-usrcm.met,1,1,,
-mehlingbilliong.com,1,1,,
-northwellhealth.edu,1,1,,
-unitreddx.com,1,1,,
-elitebilllingandcollection.com,1,1,,
-nychhc.org,1,1,,
-callagylae.com,1,1,,
-aarpcc.om,1,1,,
-siparadim.com,1,1,,
-spine-nyc.com,1,1,,
-uniterdionm.com,1,1,,
-mehlngbilling.com,1,1,,
-halomd.comv,1,1,,
-pmimed.biz,1,1,,
-ggottliebandgreenspan.com,1,0,,
-totalare.us,1,1,,
-mdcapitaladvisors.comp,1,1,,
-agshealth.com337-609-2720,1,1,,
-agshealth.comc,1,1,,
-christusheath.org,1,1,,
-orthmedstaffing.com,1,1,,
-mdcapitaladviors.com,1,1,,
-teamhealth.co,1,1,,
-gail.com,1,1,,
-medhealthpartners.com,1,1,,
-uitedionm.com,1,1,,
-christushealth.orgrg,1,1,,
-att.net,1,1,,
-fairhealthsolutions.org,1,1,,
-collabortiveimaging.com,1,1,,
-macservicesll.com,1,1,,
-medhealthfiancial.com,1,1,,
-healthfirst.com,1,1,,
-orthomedstaffing.comdisp-1957417,1,1,,
-halomd.comokay,1,1,,
-qmacsmo.com,1,1,,
-quadax.com,1,1,,
-crhanesthesia.com,1,1,,
-teamhealth.comle,1,1,,
-empireradrm.com424-352-0743,1,1,,
-callagyrcovery.com,1,0,,
-nwrmc.com,1,1,,
-kyleer.comz,1,1,,
-statspecialtyhospital.com,1,1,,
-agshealth.comcom,1,1,,
-proficosurgical.com,1,1,,
-nsomd.com,1,1,,
-meritain.com,1,1,,
-neurosurgerynj.com,1,1,,
-christusheatlh.org,1,1,,
-scphealth.comb,1,1,,
-plutushealthinc.comz,1,1,,
+dom,n,npi,filer_group,filer_type,filer_parent,filer_class
+teamhealth.com,787572,155,TeamHealth,Physician group,TeamHealth,PE / For-Profit
+primehealthcare.com,353720,303,Prime Healthcare,Hospital / health system,Prime Healthcare,Hospital System
+specialtycare.net,91955,8,SpecialtyCare,Physician group,SpecialtyCare,PE / For-Profit
+premierchoicebill.com,4842,76,Premier Choice Billing,RCM / billing vendor,Premier Choice Billing,Billing / RCM
+bmhcc.org,233600,30,Baptist Memorial Health,Hospital / health system,Baptist Memorial Health,Hospital System
+americaser.com,11440,21,America's ER,Emergency dept operator,America's ER,Physician-Owned
+callagylaw.com,51738,798,Callagy Law,Law firm,Callagy Law,Law Firm
+rightmedicalbilling.com,45812,55,Right Medical Billing,RCM / billing vendor,Right Medical Billing,Billing / RCM
+altushealthsystem.com,108176,67,Altus Community Healthcare,Emergency dept operator,Altus Community Healthcare,PE / For-Profit
+sbsbilling.com,2392,9,SBS Billing,RCM / billing vendor,SBS Billing,Billing / RCM
+shbcllc.com,199,4,,,,Physician-Owned
+assa-nj.com,2822,5,Atlantic Shore Surgical,Physician group,Atlantic Shore Surgical,Physician-Owned
+mbbrm.com,151020,1,"Mori, Bean & Brooks",Radiology group,Radiology Partners,PE / For-Profit
+soundphysicains.com,4,1,,,,Physician-Owned
+ftpbilling.com,12693,8,FTP Billing,RCM / billing vendor,FTP Billing,Billing / RCM
+scp-health.com,231891,414,SCP Health,Physician group,SCP Health,PE / For-Profit
+northstaranesthesia.com,630,3,,,,Physician-Owned
+ventrahealth.com,79202,119,Ventra Health,RCM / billing vendor,Ventra Health,Billing / RCM
+medbill-assoc.com,1684,31,MedBill Associates,RCM / billing vendor,MedBill Associates,Billing / RCM
+usacs.com,55321,67,US Acute Care Solutions,Physician group,US Acute Care Solutions,Physician-Owned
+agshealth.com,285382,348,AGS Health,RCM / billing vendor,AGS Health,Billing / RCM
+hcahealthcare.com,60776,263,HCA Healthcare,Hospital / health system,HCA Healthcare,Hospital System
+empireradrm.com,92145,2,Empire State Radiology,Radiology group,Empire State Radiology,Physician-Owned
+phsi.us,252,22,,,,Physician-Owned
+szglaw.com,151,6,,,,Physician-Owned
+iairm.com,79274,2,Imaging Associates of Indiana,Radiology group,Radiology Partners,PE / For-Profit
+cornellmedclaim.com,8,3,,,,Physician-Owned
+halomd.com,1067504,725,HaloMD,IDR specialist,HaloMD,PE / For-Profit
+atriumhealth.org,331,19,,,,Physician-Owned
+gottlievandgreenspan.com,1,0,,,,Physician-Owned
+ptanc.com,489,1,,,,Physician-Owned
+medexservices.com,607,23,,,,Physician-Owned
+hsc.utah.edu,23,1,,,,Physician-Owned
+mdcapitaladvisors.com,93106,1215,MD Capital Advisors,RCM / billing vendor,MD Capital Advisors,Billing / RCM
+md-management.net,704,85,,,,Physician-Owned
+rtmc.com,3,1,,,,Physician-Owned
+brault.us,549,14,,,,Physician-Owned
+usrcm.net,4408,81,US RCM,RCM / billing vendor,US RCM,Billing / RCM
+complete.care,40612,52,Complete Care,Emergency dept operator,Complete Care,PE / For-Profit
+glynnlegal.com,1943,22,Glynn Legal,Law firm,Glynn Legal,Law Firm
+wicnherbilling.com,1,1,,,,Physician-Owned
+cnsomd.com,574,4,,,,Physician-Owned
+plssurgery.com,150,3,,,,Physician-Owned
+gbmc.org,1457,1,Greater Baltimore Medical Center,Hospital / health system,Greater Baltimore Medical Center,Hospital System
+chs.net,292,11,,,,Physician-Owned
+collaborativeimaging.com,8823,1,Collaborative Imaging,RCM / billing vendor,Collaborative Imaging,Billing / RCM
+spspc.org,24,2,,,,Physician-Owned
+lhs.org,1107,7,,,,Physician-Owned
+cmbilling.net,20,5,,,,Physician-Owned
+memorialvillageer.com,23060,11,Memorial Village ER,Emergency dept operator,Memorial Village ER,PE / For-Profit
+njss.net,56,4,,,,Physician-Owned
+ecp.net,2712,15,Illinois Emergency Medicine Specialists,Physician group,Illinois Emergency Medicine Specialists,Physician-Owned
+dfwanesthesiology.com,370,4,,,,Physician-Owned
+crmcwy.org,154,2,,,,Physician-Owned
+totalcare.us,306313,30,TotalCare ER,Emergency dept operator,TotalCare ER,PE / For-Profit
+redrockrad.com,20350,5,Radiology Specialists,Radiology group,Radiology Specialists,Physician-Owned
+saintlukeskc.org,23,4,,,,Physician-Owned
+integrityrcmcorp.com,1927,23,Integrity RCM,RCM / billing vendor,Integrity RCM,Billing / RCM
+magmemphis.com,2337,1,Medical Anesthesia Group,Anesthesia group,Medical Anesthesia Group,Physician-Owned
+uickc.com,1517,2,United Imaging Consultants,RCM / billing vendor,United Imaging Consultants,Billing / RCM
+assureiom.com,36,2,,,,Physician-Owned
+intneuro.org,304,1,,,,Physician-Owned
+neurodiagnostictex.com,1,0,,,,Physician-Owned
+utrad.com,61,1,,,,Physician-Owned
+r1rcm.comq,2,0,,,,Physician-Owned
+ymail.com,8,2,,,,Physician-Owned
+esasurgery.com,8,2,,,,Physician-Owned
+forthesurgeons.ccom,1,0,,,,Physician-Owned
+neurodynamicsinc.org,293,1,,,,Physician-Owned
+spinecaremanagement.com,3,0,,,,Physician-Owned
+mehlingbilling.com,24,3,,,,Physician-Owned
+nybg.com,216,3,,,,Physician-Owned
+sonoranrm.comc,22,1,,,,Physician-Owned
+laredoemergency.com,64,0,,,,Physician-Owned
+omsfoxcities.com,2,1,,,,Physician-Owned
+quickmedclaims.com,1,1,,,,Physician-Owned
+fam-llc.com,597768,243,F&A Management,RCM / billing vendor,F&A Management,Billing / RCM
+ahsrcm.com,219,2,,,,Physician-Owned
+gottliebandgreenpan.com,1,0,,,,Physician-Owned
+gottliebandgreespan.com,1,0,,,,Physician-Owned
+mcallener.com,11,0,,,,Physician-Owned
+yahoo.com,1152,37,Individual practitioner (free email),Individual,Individual practitioner (free email),Individual
+phampllc.com,446,4,,,,Physician-Owned
+saparm.comq,16,1,,,,Physician-Owned
+valleychildrens.org,9,1,,,,Physician-Owned
+adventhealth.com,22697,47,AdventHealth,Hospital / health system,AdventHealth,Hospital System
+neurosurgerycnj.com,226,2,,,,Physician-Owned
+affinitymedsol.com,99,8,,,,Physician-Owned
+ventrasecure.com,483,6,,,,Physician-Owned
+onet-systems.com,4570,55,ONET Systems,RCM / billing vendor,ONET Systems,Billing / RCM
+verdicalrcm.com,1,1,,,,Physician-Owned
+vituity.com,63418,271,Vituity,Physician group,Vituity,Physician-Owned
+scphealth.com,31536,239,SCP Health,Physician group,SCP Health,PE / For-Profit
+secureventra.com,2,1,,,,Physician-Owned
+aclapath.com,351,1,,,,Physician-Owned
+multiplan.com,38,14,,,,Physician-Owned
+drsalas.com,208,1,,,,Physician-Owned
+uhc.com,77,16,,,,Physician-Owned
+slhs.org,53,5,,,,Physician-Owned
+vipmedicalmanagement.com,1938,5,VIP Medical Management,RCM / billing vendor,VIP Medical Management,Billing / RCM
+hubcarepath.com,40,1,,,,Physician-Owned
+billingiom.com,24,4,,,,Physician-Owned
+aimbillingsolutions.com,25620,32,AIM Billing Solutions,RCM / billing vendor,AIM Billing Solutions,Billing / RCM
+sassonplasticsurgery.com,160,3,,,,Physician-Owned
+maineneonatology.com,1134,4,,,,Physician-Owned
+amerciaser.com,2,1,,,,Physician-Owned
+bjc.org,894,12,,,,Physician-Owned
+aim.com,2,0,,,,Physician-Owned
+winchebilling.com,6,0,,,,Physician-Owned
+physicianbillingsolutions.net,15,0,,,,Physician-Owned
+pritipatelmd.com,19,3,,,,Physician-Owned
+md-management.com,3,1,,,,Physician-Owned
+mlh.org,227,4,,,,Physician-Owned
+totalpointcare.com,6578,19,Total Point ER,Emergency dept operator,Total Point ER,Physician-Owned
+totalcarte.us,1,1,,,,Physician-Owned
+chsli.org,958,11,,,,Physician-Owned
+atlanticneurocare.com,1044,7,,,,Physician-Owned
+summit-az.com,20954,119,Summit Anesthesia Partners,Anesthesia group,Summit Anesthesia Partners,Physician-Owned
+zotecpartners.com,81091,44,Zotec Partners,RCM / billing vendor,Zotec Partners,Billing / RCM
+spinemedli.com,124,3,,,,Physician-Owned
+fmolhs.org,24,3,,,,Physician-Owned
+neighborshealth.com,12643,14,Neighbors Health,Emergency dept operator,Neighbors Health,Physician-Owned
+ascentemc.com,1968,2,Ascent Emergency,Emergency dept operator,Ascent Emergency,Physician-Owned
+medhealthpartners.com,1,1,,,,Physician-Owned
+rdlbilling.com,1,1,,,,Physician-Owned
+onwusurgical.com,36,1,,,,Physician-Owned
+wisestaffbilling.com,40,2,,,,Physician-Owned
+pediatrix.com,16456,423,Pediatrix Medical Group,Physician group,Pediatrix Medical Group,Physician-Owned
+memorialhermann.com,1,1,,,,Physician-Owned
+neuroendomke.com,4733,12,Spine & Brain Institute of Wisconsin,Neuromonitoring (IONM),Spine & Brain Institute of Wisconsin,Physician-Owned
+provanesthesiology.co,1,1,,,,Physician-Owned
+hudsonneurosurgery.com,101,2,,,,Physician-Owned
+toyalcare.us,1,1,,,,Physician-Owned
+levinsolutions.com,1,1,,,,Physician-Owned
+forthesugeons.com,28,14,,,,Physician-Owned
+healthsystem.com,159,3,,,,Physician-Owned
+baycare.org,6,5,,,,Physician-Owned
+northstarrcts.com,1,1,,,,Physician-Owned
+colemedical.com,66,3,,,,Physician-Owned
+alldatahealth.com,12364,119,AllData Health,RCM / billing vendor,AllData Health,Billing / RCM
+bssny.com,533,6,,,,Physician-Owned
+medhealtfinancial.com,1,1,,,,Physician-Owned
+saintfrancis.com,10047,5,Saint Francis Health,Hospital / health system,Saint Francis Health,Hospital System
+craigbaldenhofermd.com,3,1,,,,Physician-Owned
+atlanticbrainandspine.org,111,0,,,,Physician-Owned
+forthesurgesons.com,4,3,,,,Physician-Owned
+prestigemedicalbill.com,2526,9,Prestige Medical Billing,RCM / billing vendor,Prestige Medical Billing,Billing / RCM
+springtidehealth.com,1,1,,,,Physician-Owned
+od-ns.com,34,6,,,,Physician-Owned
+fellowhealthpartners.com,482,7,,,,Physician-Owned
+perfecture.com,18,1,,,,Physician-Owned
+1021park.com,19,1,,,,Physician-Owned
+mediclaimsservices.org,398,7,,,,Physician-Owned
+erkaty.com,492,2,,,,Physician-Owned
+transformweightlossllc.com,6,1,,,,Physician-Owned
+racrm.com,3505,1,Radiology Associates of Canton,Radiology group,Radiology Associates of Canton,Physician-Owned
+midstateradrm.com,2762,1,Murfreesboro Radiology,Radiology group,Murfreesboro Radiology,Physician-Owned
+pswdocs.com,300,5,,,,Physician-Owned
+jenkinsneurospine.com,30,1,,,,Physician-Owned
+unitedx.com,5,1,,,,Physician-Owned
+millermilone.com,81,9,,,,Physician-Owned
+soundphysicans.com,3,1,,,,Physician-Owned
+synergy-hp.com,1,1,,,,Physician-Owned
+mdcapitaladvsors.com,4,1,,,,Physician-Owned
+multicare.org,35,7,,,,Physician-Owned
+stormontvail.org,1167,3,Stormont Vail Health,Hospital / health system,Stormont Vail Health,Hospital System
+upmc.edu,26,10,,,,Physician-Owned
+grewalspine.com,11,2,,,,Physician-Owned
+haldmd.com,1,1,,,,Physician-Owned
+stiebermd.com,2,1,,,,Physician-Owned
+agilityrcm.com,832,33,,,,Physician-Owned
+lvlgroup.com,26,1,,,,Physician-Owned
+beinhakerlaw.com,193,5,,,,Physician-Owned
+globusmedical.com,946,3,,,,Physician-Owned
+recoveryspecialist.org,917,3,,,,Physician-Owned
+smsneuro.com,767,8,,,,Physician-Owned
+mercer-health.com,3,1,,,,Physician-Owned
+lihandccenter.com,1,1,,,,Physician-Owned
+atlanticneurorcare.com,1,0,,,,Physician-Owned
+nghs.com,341,4,,,,Physician-Owned
+siparadigm.com,156,2,,,,Physician-Owned
+nspc.com,19,9,,,,Physician-Owned
+uscs.com,2,1,,,,Physician-Owned
+armc.sbcounty.gov,179,2,,,,Physician-Owned
+saguaroanesthesia.com,2880,5,Saguaro Anesthesia,Anesthesia group,Saguaro Anesthesia,Physician-Owned
+longislandbrainandspine.com,2848,16,Long Island Brain & Spine,Physician group,Long Island Brain & Spine,Physician-Owned
+ramapo.edu,2,2,,,,Physician-Owned
+bayhealth.org,8,2,,,,Physician-Owned
+ensemblehp.com,167,6,,,,Physician-Owned
+optum.com,1,1,,,,Physician-Owned
+childrens.com,1,1,,,,Physician-Owned
+froedtert.com,134,3,,,,Physician-Owned
+mdcaptialadvisors.com,1,1,,,,Physician-Owned
+orthomedbilling.com,2,1,,,,Physician-Owned
+healthplansinc.com,1,1,,,,Physician-Owned
+uniteidonm.com,1,1,,,,Physician-Owned
+beverlyhillsherniacenter.com,35,2,,,,Physician-Owned
+harrisplasticsurgery.com,23,2,,,,Physician-Owned
+globalhealthcareresource.com,2,2,,,,Physician-Owned
+peditrix.com,8,1,,,,Physician-Owned
+cchmc.org,10,1,,,,Physician-Owned
+premierhosp.com,5,1,,,,Physician-Owned
+nosurprisebill.com,20484,47,No Surprise Bill,IDR specialist,No Surprise Bill,PE / For-Profit
+drnimapatel.com,16,1,,,,Physician-Owned
+gpsmdpc.com,5,1,,,,Physician-Owned
+aspirus.org,2,1,,,,Physician-Owned
+spinepainsolutions.com,911,3,,,,Physician-Owned
+expresserbilling.com,1484,4,Express ER Billing,RCM / billing vendor,Express ER Billing,Billing / RCM
+gottlebandgreenspan.com,1,0,,,,Physician-Owned
+mdcapitalavisors.com,14,14,,,,Physician-Owned
+myspsdocs.com,184,4,,,,Physician-Owned
+envisionhealth.comd,18,2,,,,Physician-Owned
+horizonblue.com,6,3,,,,Physician-Owned
+hkmpp.com,9,2,,,,Physician-Owned
+racrm.comq,1,1,,,,Physician-Owned
+gotliebandgreenspan.com,1,0,,,,Physician-Owned
+ventraheal.com,26,0,,,,Physician-Owned
+thenathlawfirm.com,35,1,,,,Physician-Owned
+newyorkurologyspecialists.com,20,1,,,,Physician-Owned
+assa.nj.com,1,1,,,,Physician-Owned
+lpnt.net,9,5,,,,Physician-Owned
+spine-nj.com,12,1,,,,Physician-Owned
+metrohealthbill.net,626,1,,,,Physician-Owned
+bmcjax.com,127,1,,,,Physician-Owned
+pedatrix.com,10,2,,,,Physician-Owned
+northstardoc.com,222,1,,,,Physician-Owned
+mlanesthesia.co,1,1,,,,Physician-Owned
+revenuebilling.com,16,1,,,,Physician-Owned
+azweightlossclinic.com,5,1,,,,Physician-Owned
+nsb.solutions,403,23,,,,Physician-Owned
+qumacsmso.com,8,4,,,,Physician-Owned
+medstar.net,76,1,,,,Physician-Owned
+docs4docs360.com,133,1,,,,Physician-Owned
+arbcollections.com,759,65,,,,Physician-Owned
+curamedgroup.com,86,1,,,,Physician-Owned
+atlanticpediatricorthopedics.com,1,1,,,,Physician-Owned
+srhc.com,10,2,,,,Physician-Owned
+track.idrclaims.com,10,4,,,,Physician-Owned
+precisionmedarb.com,134,6,,,,Physician-Owned
+ecommunity.com,12,4,,,,Physician-Owned
+omegahms.com,13,1,,,,Physician-Owned
+zanexmed.com,1075,3,,,,Physician-Owned
+radpa.com,13,1,,,,Physician-Owned
+provanesthesiology.com509.97,1,1,,,,Physician-Owned
+quantumrad.com,19,1,,,,Physician-Owned
+allianceortho.com,210,10,,,,Physician-Owned
+doctorscga.com,158,2,,,,Physician-Owned
+dreyfuss.com,5,4,,,,Physician-Owned
+mbbrm.comf,6,1,,,,Physician-Owned
+swiftstar.com,1697,3,Swift Star,RCM / billing vendor,Swift Star,Billing / RCM
+iairm.comb,3,1,,,,Physician-Owned
+wisemedicalbilling.com,1,1,,,,Physician-Owned
+qualchoice.com,1,0,,,,Physician-Owned
+piomneuro.com,5,1,,,,Physician-Owned
+centrahealth.com,8,3,,,,Physician-Owned
+azblue.com,1,1,,,,Physician-Owned
+neauroendomke.com,5,2,,,,Physician-Owned
+fothesurgeons.com,3,3,,,,Physician-Owned
+integrityrcm.com,6,2,,,,Physician-Owned
+christusheath.org,1,1,,,,Physician-Owned
+pier17pmm.com,7,1,,,,Physician-Owned
+axisneuro.com,30,4,,,,Physician-Owned
+ketteringhealth.org,5,4,,,,Physician-Owned
+,4,2,,,,Physician-Owned
+riversideer.com,1,1,,,,Physician-Owned
+sapientlogic.cfom,1,1,,,,Physician-Owned
+aspirion.com,235,24,,,,Physician-Owned
+healthworksbetter.com,3883,11,HealthWorks,RCM / billing vendor,HealthWorks,Billing / RCM
+civie.com,3437,1,Civie,RCM / billing vendor,Civie,Billing / RCM
+primhealthcare.com,56,0,,,,Physician-Owned
+advocatehealth.org,149,15,,,,Physician-Owned
+lonestar24hrer.com,860,2,,,,Physician-Owned
+kyleer.com,1115,2,,,,Physician-Owned
+pelmed.com,832,20,,,,Physician-Owned
+primehealthcare.com125.60,10,0,,,,Physician-Owned
+caromonthealth.org,2,1,,,,Physician-Owned
+floresvillehealth.com,22,1,,,,Physician-Owned
+proficiosurgical.com,302,3,,,,Physician-Owned
+saparm.comz,1,1,,,,Physician-Owned
+fam-ll.com,17,1,,,,Physician-Owned
+smsneuro.comqaalerts,5,1,,,,Physician-Owned
+alldataheatlh.com,81,3,,,,Physician-Owned
+azvitallaw.com,3,1,,,,Physician-Owned
+nybrainspine.com,193,3,,,,Physician-Owned
+primehealthcae.com,19,0,,,,Physician-Owned
+redefinemanagement.filevineapp.com,21,4,,,,Physician-Owned
+avika-bs.com,283,19,,,,Physician-Owned
+primesurgicare.com,2,1,,,,Physician-Owned
+ppmaltd.com,26,1,,,,Physician-Owned
+paaragonanesthesia.com,2,1,,,,Physician-Owned
+envisionhealth.comq,4,1,,,,Physician-Owned
+adrightmedicalbilling.com,12,1,,,,Physician-Owned
+fam-llc.om,4,2,,,,Physician-Owned
+healthclaimpartners.com,168,12,,,,Physician-Owned
+expressemergencyroom.com,1,1,,,,Physician-Owned
+synergenhealth.com,8,1,,,,Physician-Owned
+iorthomd.com,5,1,,,,Physician-Owned
+ccf.org,33,8,,,,Physician-Owned
+zotecpartnerc.com,15,0,,,,Physician-Owned
+elitebillingandcollections.com,2,1,,,,Physician-Owned
+mbbrm.comq,2,1,,,,Physician-Owned
+greathealthprovider.fake,4,1,,,,Physician-Owned
+mvmhealth.com,122,2,,,,Physician-Owned
+umcsn.com,1,1,,,,Physician-Owned
+mlanesthesia.comm,1,1,,,,Physician-Owned
+halomd.com0000000,2,1,,,,Physician-Owned
+fam-llc.com3,3,1,,,,Physician-Owned
+minevichlawgroup.com,225,6,,,,Physician-Owned
+ggottliebandgreenspan.com,1,0,,,,Physician-Owned
+macservicesll.com,1,1,,,,Physician-Owned
+verizon.net,13,1,,,,Physician-Owned
+datamarshall.com,310,4,,,,Physician-Owned
+acuetrcm.com,5,1,,,,Physician-Owned
+lafayetteheart.com,12,1,,,,Physician-Owned
+alliesclinic.com,151,1,,,,Physician-Owned
+drprpa.com,12,1,,,,Physician-Owned
+sidneyrmc.com,23,1,,,,Physician-Owned
+hpiinc.com,37,1,,,,Physician-Owned
+seacoastspine.com,97,1,,,,Physician-Owned
+alpinerevenuemanagement.com,57,4,,,,Physician-Owned
+nosurpriseill.com,2,1,,,,Physician-Owned
+halomd.come,1,1,,,,Physician-Owned
+collectionpro.com,49,8,,,,Physician-Owned
+pedsneurosurgerynj.com,40,1,,,,Physician-Owned
+syntechhealth.comq,1,1,,,,Physician-Owned
+phoenix-rcm.com,29,2,,,,Physician-Owned
+jkcdocs.com,11,1,,,,Physician-Owned
+specialtyaestheticsurgery.com,5,1,,,,Physician-Owned
+nmaiiom.com,3,1,,,,Physician-Owned
+usap.om,2,1,,,,Physician-Owned
+villagehealth.care,1,1,,,,Physician-Owned
+sonoranrm.comm,1,1,,,,Physician-Owned
+ariesrcm.com,176,4,,,,Physician-Owned
+islandprofessionabilling.com,1,1,,,,Physician-Owned
+medrecoverysolutions.com,6,1,,,,Physician-Owned
+longislandbrainandspine.com.com,1,1,,,,Physician-Owned
+primehealhcare.com,20,0,,,,Physician-Owned
+claim-doc.com,4,1,,,,Physician-Owned
+phxsurgery.com,5,1,,,,Physician-Owned
+hcmsus.com,7,3,,,,Physician-Owned
+savantmeddata.com,43,1,,,,Physician-Owned
+bhattlawgroup.com,7,2,,,,Physician-Owned
+primehealth.com,20,1,,,,Physician-Owned
+hrmd.com,10,2,,,,Physician-Owned
+altushealth.com,14,4,,,,Physician-Owned
+bcbsm.com,3,1,,,,Physician-Owned
+precisionhub.com,5,1,,,,Physician-Owned
+mdcapital.com,1,1,,,,Physician-Owned
+fam-llc.comv,9,1,,,,Physician-Owned
+summitanesthesiaarbitration.com,5,5,,,,Physician-Owned
+bcbsk.com,12,1,,,,Physician-Owned
+victoriaemergeny.com,150,0,,,,Physician-Owned
+amerorthopaedics.com,4,1,,,,Physician-Owned
+alldathealth.com,5,0,,,,Physician-Owned
+ascendarbitration.com,6,5,,,,Physician-Owned
+smirm.comq,2,1,,,,Physician-Owned
+alldathaealth.com,5,0,,,,Physician-Owned
+valleywidesurgical.com,4,3,,,,Physician-Owned
+allstarssurgical.com,2,1,,,,Physician-Owned
+njms.rutgers.edu,6,1,,,,Physician-Owned
+agshealth.comq,2,2,,,,Physician-Owned
+med.umich.edu,1,1,,,,Physician-Owned
+houstonmethodist.org,2,0,,,,Physician-Owned
+ameriaser.com,2,2,,,,Physician-Owned
+bmhcc.o3rg,1,1,,,,Physician-Owned
+simplexmerd.com,3,2,,,,Physician-Owned
+ams-md.com,1,0,,,,Physician-Owned
+md-management.ne,3,3,,,,Physician-Owned
+specializedrevenue.com,1,1,,,,Physician-Owned
+forthesuregons.com,1,1,,,,Physician-Owned
+survivalflightinc.com,1,1,,,,Physician-Owned
+clearskiesanesthesia.com,1,0,,,,Physician-Owned
+wincherbiilling.com,1,0,,,,Physician-Owned
+northjerseyneuro.com,1,0,,,,Physician-Owned
+envisionhealth.como,1,1,,,,Physician-Owned
+mainehealth.org,3,2,,,,Physician-Owned
+altushealthysystem.com,1,1,,,,Physician-Owned
+ftpbilling.comm,1,1,,,,Physician-Owned
+islandprofessionalbilling.om,1,1,,,,Physician-Owned
+tprsg.com,1,1,,,,Physician-Owned
+tottalcare.us,1,1,,,,Physician-Owned
+schealth.com,1,1,,,,Physician-Owned
+apcjc.com,1,0,,,,Physician-Owned
+commonspirti.org,1,0,,,,Physician-Owned
+gottliebandgreenspand.com,1,0,,,,Physician-Owned
+envisionhealth.comqpqpa,18,1,,,,Physician-Owned
+lvlgrp.com,14,1,,,,Physician-Owned
+iwncherbilling.com,2,0,,,,Physician-Owned
+mlh.ort,1,1,,,,Physician-Owned
+nwrmc.com,1,1,,,,Physician-Owned
+envsionhealth.com,13,1,,,,Physician-Owned
+interhealthsolutions.com,1,1,,,,Physician-Owned
+forthesurgeon.coms,1,1,,,,Physician-Owned
+ebillingsolutions.net,3,2,,,,Physician-Owned
+unitrddx.com,1,1,,,,Physician-Owned
+nutexhealth.com,1,1,,,,Physician-Owned
+preferredbilingaz.com,3,3,,,,Physician-Owned
+performancerehabnj.com,2,1,,,,Physician-Owned
+phiairmedical.com,1,1,,,,Physician-Owned
+mederiservices.com,4,2,,,,Physician-Owned
+uscas.com,10,1,,,,Physician-Owned
+onet-sytems.com,1,1,,,,Physician-Owned
+eiomneuro.com,4,1,,,,Physician-Owned
+totalcare.is,1,1,,,,Physician-Owned
+billdex.org,10,2,,,,Physician-Owned
+untieddx.com,1,1,,,,Physician-Owned
+supmedmgmt.com,4,2,,,,Physician-Owned
+crossbaymedical.com,3,1,,,,Physician-Owned
+mehlngbilling.com,1,1,,,,Physician-Owned
+forthesurgoens.com,1,1,,,,Physician-Owned
+envisionhealth.comvnjac48,1,0,,,,Physician-Owned
+uhsinc.com,1,1,,,,Physician-Owned
+aventhealth.com,3,1,,,,Physician-Owned
+qmacsmo.com,1,1,,,,Physician-Owned
+hcahealth.com,2,1,,,,Physician-Owned
+restorationortho.com,1,1,,,,Physician-Owned
+halomd.comvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv,1,1,,,,Physician-Owned
+hera-health.com,1,1,,,,Physician-Owned
+cortho.org,1,0,,,,Physician-Owned
+smirm.comc,1,1,,,,Physician-Owned
+envisionhealth.com560,2,1,,,,Physician-Owned
+millermilone.ccom,1,1,,,,Physician-Owned
+oaaweb.com,1,1,,,,Physician-Owned
+scp-health.com337-609-2720,1,0,,,,Physician-Owned
+summacare.com,1,1,,,,Physician-Owned
+tesslermd.com,2,1,,,,Physician-Owned
+palmettopain.net,1,0,,,,Physician-Owned
+callgyrecovery.com,3,0,,,,Physician-Owned
+halomd.comw,1,1,,,,Physician-Owned
+nsomd.com,1,1,,,,Physician-Owned
+aac-md.com,1,0,,,,Physician-Owned
+greenbergcosmeticsurgery.com,1,1,,,,Physician-Owned
+r1rcm.com,38638,91,R1 RCM,RCM / billing vendor,R1 RCM,Billing / RCM
+envisionhealth.com,418293,9614,Envision Healthcare,Physician group,Envision Healthcare,PE / For-Profit
+gottliebandgreenspan.com,71736,639,Gottlieb & Greenspan,Law firm,Gottlieb & Greenspan,Law Firm
+gmail.com,32419,496,Individual practitioner (free email),Individual,Individual practitioner (free email),Individual
+cohenhoward.com,324,52,,,,Physician-Owned
+epiomneuro.com,4550,39,EPIOM Neuro,Neuromonitoring (IONM),EPIOM Neuro,Physician-Owned
+northwell.edu,738,84,,,,Physician-Owned
+sonoranrm.com,215294,9,Sonoran Radiology,Radiology group,Radiology Partners,PE / For-Profit
+soundphysicians.com,44619,34,Sound Physicians,Physician group,Sound Physicians,PE / For-Profit
+simplexmed.com,22517,65,Simplex Med,RCM / billing vendor,Simplex Med,Billing / RCM
+halkovichlaw.com,23389,176,Halkovich Law,Law firm,Halkovich Law,Law Firm
+infamedics.com,6,1,,,,Physician-Owned
+roundtmc.com,62009,39,Round Table Physicians,Physician group,Round Table Physicians,Physician-Owned
+sycamoremm.com,1007,5,,,,Physician-Owned
+texashealth.org,1242,26,Texas Health Resources,Hospital / health system,Texas Health Resources,Hospital System
+provanesthesiology.com,19068,12,Providence Anesthesiology,Anesthesia group,Providence Anesthesiology,Physician-Owned
+hcahealtcare.com,23,9,,,,Physician-Owned
+wolfepincavage.com,2344,35,Wolfe Pincavage,Law firm,Wolfe Pincavage,Law Firm
+saparm.com,802057,4,Singleton Associates,Radiology group,Radiology Partners,PE / For-Profit
+smh.com,327,2,,,,Physician-Owned
+aol.com,2535,33,Individual practitioner (free email),Individual,Individual practitioner (free email),Individual
+bgc-law.com,113,7,,,,Physician-Owned
+wincherbilling.com,2611,10,Wincher Billing,RCM / billing vendor,Wincher Billing,Billing / RCM
+radalliancerm.com,26482,2,Radiology Alliance,Radiology group,Radiology Partners,PE / For-Profit
+accessradrm.com,3691,1,Radiology Associates of Southwest,Radiology group,Radiology Associates of Southwest,Physician-Owned
+arsahealth.com,78,6,,,,Physician-Owned
+aoundphysicians.com,34,1,,,,Physician-Owned
+brownphysicians.org,3951,1,Brown Emergency Medicine,Physician group,Brown Emergency Medicine,Physician-Owned
+tenethealth.com,3743,35,Tenet Healthcare,Hospital / health system,Tenet Healthcare,Hospital System
+wellstar.org,18820,13,Wellstar,Hospital / health system,Wellstar,Hospital System
+forthesurgeons.com,27851,405,East Coast Advanced Plastic Surgery,Physician group,East Coast Advanced Plastic Surgery,Physician-Owned
+commonspirit.org,39288,111,CommonSpirit Health,Hospital / health system,CommonSpirit Health,Hospital System
+islandprofessionalbilling.com,5363,59,Island Professional Billing,RCM / billing vendor,Island Professional Billing,Billing / RCM
+radpmg.com,114534,127,Houston Radiology Associated,Radiology group,Houston Radiology Associated,Physician-Owned
+nmaiom.com,41787,22,NMA IONM,Neuromonitoring (IONM),NMA IONM,PE / For-Profit
+uiowa.edu,1,0,,,,Physician-Owned
+secureabeo.com,80,1,,,,Physician-Owned
+imail.org,258,20,,,,Physician-Owned
+hkanesthesia.com,1051,3,,,,Physician-Owned
+pephealth.net,172,3,,,,Physician-Owned
+correctcareinc.com,74,2,,,,Physician-Owned
+renown.org,146,3,,,,Physician-Owned
+preferredbillingaz.com,12287,208,Preferred Billing AZ,RCM / billing vendor,Preferred Billing AZ,Billing / RCM
+altairhealth.com,404,11,,,,Physician-Owned
+aarpc.com,525,15,,,,Physician-Owned
+preferrredbillingaz.com,1,1,,,,Physician-Owned
+smirm.com,16334,1,Specialists in Medical Imaging,Radiology group,Specialists in Medical Imaging,Physician-Owned
+practicemax.com,994,38,,,,Physician-Owned
+peakmedbilling.net,26,6,,,,Physician-Owned
+mountsinai.org,111,2,,,,Physician-Owned
+natera.com,6721,5,Natera,Physician group,Natera,Physician-Owned
+logixhealth.com,12866,27,LogixHealth,RCM / billing vendor,LogixHealth,Billing / RCM
+unitedionm.com,18434,82,United IONM,Neuromonitoring (IONM),United IONM,Physician-Owned
+aah.org,78,11,,,,Physician-Owned
+arentfox.com,36,4,,,,Physician-Owned
+parallon.com,457,32,,,,Physician-Owned
+gottleibandgreenspan.com,19,2,,,,Physician-Owned
+lihandcenter.com,222,4,,,,Physician-Owned
+ansmonitoring.com,1162,10,Advanced Neuro Solutions,Neuromonitoring (IONM),Advanced Neuro Solutions,Physician-Owned
+essentiahealth.org,23,14,,,,Physician-Owned
+omsmedbilling.com,12294,9,OMS Medical Billing,RCM / billing vendor,OMS Medical Billing,Billing / RCM
+asterobgyn.com,12,4,,,,Physician-Owned
+sanfordhealth.org,242,13,,,,Physician-Owned
+afslaw.com,5428,198,ArentFox Schiff,Law firm,ArentFox Schiff,Law Firm
+em-specialists.org,4767,11,EM Specialists,Physician group,EM Specialists,Physician-Owned
+bellaireer.com,8015,10,Bellaire ER,Emergency dept operator,Bellaire ER,Physician-Owned
+tosmny.com,14,4,,,,Physician-Owned
+eamedbill.com,40,5,,,,Physician-Owned
+gryphonhc.com,19056,28,Gryphon Healthcare,RCM / billing vendor,Gryphon Healthcare,Billing / RCM
+lnaapa.com,18,1,,,,Physician-Owned
+nmbs1.com,5,3,,,,Physician-Owned
+pepheath.net,10,0,,,,Physician-Owned
+scp-health.comc,2,1,,,,Physician-Owned
+scp-health.co,3,1,,,,Physician-Owned
+aetna.com,267,4,,,,Physician-Owned
+resourceone-llc.com,62,2,,,,Physician-Owned
+ipsmed.com,672,5,,,,Physician-Owned
+nphllc.com,59,2,,,,Physician-Owned
+wellspan.org,98,6,,,,Physician-Owned
+njbrainspinebilling.com,1166,37,NJ Brain & Spine Billing,RCM / billing vendor,NJ Brain & Spine Billing,Billing / RCM
+circadianbg.com,30,1,,,,Physician-Owned
+nwappc.com,11,0,,,,Physician-Owned
+castlebiosciences.com,5,2,,,,Physician-Owned
+careplusmp.com,5,0,,,,Physician-Owned
+paragonanesthesia.com,1133,3,,,,Physician-Owned
+hbcmd.com,73,3,,,,Physician-Owned
+merrifieldlaw.com,2,0,,,,Physician-Owned
+johnmuirhealth.com,18,2,,,,Physician-Owned
+apollomd.com,42406,58,ApolloMD,Physician group,ApolloMD,PE / For-Profit
+saint-lukes.org,12,3,,,,Physician-Owned
+fairview.org,19,2,,,,Physician-Owned
+bergenanesthesiagroup.com,3480,2,Bergen Anesthesia,Anesthesia group,Bergen Anesthesia,Physician-Owned
+alliancebc.net,189,12,,,,Physician-Owned
+r1rc.mcom,1,1,,,,Physician-Owned
+froedtertsouth.com,13,1,,,,Physician-Owned
+mlsmedbill.com,1454,21,MLS Medical Billing,RCM / billing vendor,MLS Medical Billing,Billing / RCM
+accuratedebt.net,42,5,,,,Physician-Owned
+artplasticsurgeons.com,6,3,,,,Physician-Owned
+laurelchandlermd.com,6,1,,,,Physician-Owned
+selfregional.org,16,1,,,,Physician-Owned
+ncpsmd.com,6,1,,,,Physician-Owned
+spinecarelongisland.com,247,5,,,,Physician-Owned
+islandprofessionlbilling.com,1,1,,,,Physician-Owned
+transformweightloss.com,6,1,,,,Physician-Owned
+eliteneurophysiology.com,1,1,,,,Physician-Owned
+forthesurgions.com,1,1,,,,Physician-Owned
+victoriaemergency.com,8779,3,Victoria Emergency Partners,Emergency dept operator,Victoria Emergency Partners,Physician-Owned
+christushealth.org,900,22,,,,Physician-Owned
+medhealthfinancial.com,3731,5,MedHealth Financial,RCM / billing vendor,MedHealth Financial,Billing / RCM
+saparm.com424-352-0743,13,1,,,,Physician-Owned
+rush.edu,4,1,,,,Physician-Owned
+nychhc.org,1,1,,,,Physician-Owned
+probillusa.com,94,4,,,,Physician-Owned
+mettahealth.org,6,1,,,,Physician-Owned
+devington.com,41,3,,,,Physician-Owned
+totalcare.com,2,2,,,,Physician-Owned
+collectrx.com,8,2,,,,Physician-Owned
+omsmedbiling.com,3,1,,,,Physician-Owned
+forthesurgeons.cm,1,1,,,,Physician-Owned
+familyemergencyroom.com,1,1,,,,Physician-Owned
+ilandprofessionalbilling.com,1,1,,,,Physician-Owned
+bossrabinowitz.com,1,1,,,,Physician-Owned
+saparm.comc,28,1,,,,Physician-Owned
+syntechhealth.com,7008,6,Syntech Health,RCM / billing vendor,Syntech Health,Billing / RCM
+erevenuebilling.com,93752,31,eRevenue,RCM / billing vendor,eRevenue,Billing / RCM
+macservicesllc.com,4331,74,MAC Services,RCM / billing vendor,MAC Services,Billing / RCM
+legacyhealthllc.com,21724,16,Legacy ER,Emergency dept operator,Legacy ER,Physician-Owned
+wakehealth.edu,6,2,,,,Physician-Owned
+mccancemd.com,481,4,,,,Physician-Owned
+uniteddx.com,675,26,,,,Physician-Owned
+boosthealthcare.com,416,5,,,,Physician-Owned
+usneuro.net,1308,15,US Neuro,Neuromonitoring (IONM),US Neuro,Physician-Owned
+crmcollect.com,5,2,,,,Physician-Owned
+newneurons.net,14,0,,,,Physician-Owned
+hsg.healthcare,472,13,,,,Physician-Owned
+mdnmedicalbilling.com,12,5,,,,Physician-Owned
+sapientlogic.com,44,1,,,,Physician-Owned
+usap.com,84980,7,US Anesthesia Partners,Anesthesia group,US Anesthesia Partners,PE / For-Profit
+njbcenter.com,455,13,,,,Physician-Owned
+hotmail.com,42,5,Individual practitioner (free email),Individual,Individual practitioner (free email),Individual
+gnrasst.com,7,0,,,,Physician-Owned
+adelfimbs.com,45,12,,,,Physician-Owned
+nymedsol.com,35,1,,,,Physician-Owned
+anthem.com,157,9,,,,Physician-Owned
+gsbwc.com,152,7,,,,Physician-Owned
+att.net,1,1,,,,Physician-Owned
+gottusolaw.com,72,3,,,,Physician-Owned
+bracewell.com,155,22,,,,Physician-Owned
+optonline.net,8,2,,,,Physician-Owned
+erlanger.org,2,2,,,,Physician-Owned
+northjerseyvascular.com,14,1,,,,Physician-Owned
+pchonline.org,1,0,,,,Physician-Owned
+vituity.onmicrosoft.com,565,4,,,,Physician-Owned
+synapsesiom.com,1,1,,,,Physician-Owned
+mbbrm.comx,2,1,,,,Physician-Owned
+scp-health.comq,2,2,,,,Physician-Owned
+bcbst.com,5,2,,,,Physician-Owned
+karisbilling.us,1514,8,Karis Billing,RCM / billing vendor,Karis Billing,Billing / RCM
+orthomedstaffing.com,75535,8,OrthoMed Staffing,Physician group,OrthoMed Staffing,PE / For-Profit
+qmacsmso.com,136051,88,QMACS MSO,RCM / billing vendor,QMACS MSO,Billing / RCM
+cityorthosports.com,673,3,,,,Physician-Owned
+coaxialneuro.com,546,2,,,,Physician-Owned
+lcabinskylaw.com,91,20,,,,Physician-Owned
+linked2care.com,12,5,,,,Physician-Owned
+nsabilling.com,1709,47,NSA Billing,RCM / billing vendor,NSA Billing,Billing / RCM
+miamibeachplasticsurgery.com,1,1,,,,Physician-Owned
+elitebillingandcollection.com,529,38,,,,Physician-Owned
+foxxware.com,9,2,,,,Physician-Owned
+corevant.com,296,22,,,,Physician-Owned
+ssmhealth.com,640,21,,,,Physician-Owned
+trinity-health.org,6,4,,,,Physician-Owned
+earthlink.net,2,1,,,,Physician-Owned
+ihcsaz.com,2394,4,Fountain Hills Medical Center,Emergency dept operator,Fountain Hills Medical Center,Physician-Owned
+malvernridgesolutions.com,30,2,,,,Physician-Owned
+amricaser.com,1,1,,,,Physician-Owned
+empireradrm.comq,1,1,,,,Physician-Owned
+anesthesiadynamics.com,17765,25,Anesthesia Dynamics,Anesthesia group,Anesthesia Dynamics,Physician-Owned
+clearhs.com,36,8,,,,Physician-Owned
+sweetwatermemorial.com,55,1,,,,Physician-Owned
+bcbstx.com,21,5,,,,Physician-Owned
+forthesurgeon.com,8,8,,,,Physician-Owned
+ccsamd.com,11,1,,,,Physician-Owned
+corercm.com,2,2,,,,Physician-Owned
+lakenormanofs.com,30,1,,,,Physician-Owned
+medicaldebt.net,144,2,,,,Physician-Owned
+callagylaw.co,4,0,,,,Physician-Owned
+e-billingsolutions.net,1,1,,,,Physician-Owned
+pnsnj.com,24,1,,,,Physician-Owned
+njbrainspinebiling.com,3,2,,,,Physician-Owned
+agshealth.comanie,1,1,,,,Physician-Owned
+collaborativeimaging.com71,2,1,,,,Physician-Owned
+totalcrae.us,2,1,,,,Physician-Owned
+radixhealth.io,110408,719,Radix Health,RCM / billing vendor,Radix Health,Billing / RCM
+ehc24.com,369,7,,,,Physician-Owned
+njbcener.com,1,1,,,,Physician-Owned
+divitiaembs.com,9,4,,,,Physician-Owned
+solutionsfmb.com,96,1,,,,Physician-Owned
+aarpcc.om,1,1,,,,Physician-Owned
+nextlevelcodingllc.com,490,6,,,,Physician-Owned
+uitedionm.com,1,1,,,,Physician-Owned
+bayortho.com,5,1,,,,Physician-Owned
+monitoringconcepts.net,5,4,,,,Physician-Owned
+med-metrix.com,7,3,,,,Physician-Owned
+practicewithease.com,496,7,,,,Physician-Owned
+lvl1grp.com,26,2,,,,Physician-Owned
+epilepsygroup.com,2,1,,,,Physician-Owned
+cloudmed.com,3,3,,,,Physician-Owned
+solestra.net,771,12,,,,Physician-Owned
+agshealth.comc,1,1,,,,Physician-Owned
+fpsmedicalbilling.com,307,5,,,,Physician-Owned
+soundphysicins.com,7,1,,,,Physician-Owned
+clearchoiceer.com,3182,2,Clear Choice ER,Emergency dept operator,Clear Choice ER,Physician-Owned
+orthmedstaffing.com,1,1,,,,Physician-Owned
+optimaanesthesia.com,3,0,,,,Physician-Owned
+liap.info,2,1,,,,Physician-Owned
+mdcapitaladviors.com,1,1,,,,Physician-Owned
+teamhealth.co,1,1,,,,Physician-Owned
+mayo.edu,125,8,,,,Physician-Owned
+mlanesthesia.com,1365,13,ML Anesthesia,Anesthesia group,ML Anesthesia,Physician-Owned
+leverngear.com,21,14,,,,Physician-Owned
+superesq.com,29,2,,,,Physician-Owned
+envisionhealth.comv,2,2,,,,Physician-Owned
+apexionm.com,1178,11,Apex IONM,Neuromonitoring (IONM),Apex IONM,Physician-Owned
+nebraskamed.com,5,2,,,,Physician-Owned
+halifax.org,94,2,,,,Physician-Owned
+lmesq.com,130,5,,,,Physician-Owned
+nwrcm.com,683,15,,,,Physician-Owned
+med.cornell.edu,4,2,,,,Physician-Owned
+zelis.com,79,7,,,,Physician-Owned
+chomp.org,22,2,,,,Physician-Owned
+piedmont.org,83,16,,,,Physician-Owned
+orthosurgteam.com,61,2,,,,Physician-Owned
+plutushealthinc.com,253,3,,,,Physician-Owned
+gail.com,1,1,,,,Physician-Owned
+halomad.com,3,1,,,,Physician-Owned
+outlook.com,35,1,Individual practitioner (free email),Individual,Individual practitioner (free email),Individual
+mebill-assoc.com,2,1,,,,Physician-Owned
+fortheusrgeons.com,3,2,,,,Physician-Owned
+christushealth.orgrg,1,1,,,,Physician-Owned
+sonoranrm.comq,4,1,,,,Physician-Owned
+baycare.net,2,1,,,,Physician-Owned
+fairhealthsolutions.org,1,1,,,,Physician-Owned
+nuvasive.com,10,2,,,,Physician-Owned
+airmethods.com,14,1,,,,Physician-Owned
+ssc-nashville.com,434,44,,,,Physician-Owned
+collabortiveimaging.com,1,1,,,,Physician-Owned
+neurologiciom.com,1234,3,Neurologic IOM,Neuromonitoring (IONM),Neurologic IOM,Physician-Owned
+iairm.comq,2,1,,,,Physician-Owned
+medhealthfiancial.com,1,1,,,,Physician-Owned
+callagyrecovery.com,69047,299,Callagy Law,Law firm,Callagy Law,Law Firm
+clearhealthcloud.com,5,2,,,,Physician-Owned
+cigna.com,26,4,,,,Physician-Owned
+elitebillingllc.com,2570,8,Elite Billing,RCM / billing vendor,Elite Billing,Billing / RCM
+heightsrcm.com,11239,4,Heights RCM,RCM / billing vendor,Heights RCM,Billing / RCM
+oali.com,339,2,,,,Physician-Owned
+nosuprisebill.com,50,1,,,,Physician-Owned
+medloopus.com,8,2,,,,Physician-Owned
+vgabilling.com,229,10,,,,Physician-Owned
+siparadig.com,53,2,,,,Physician-Owned
+mmbcontact.com,770,29,,,,Physician-Owned
+centralorthopedicgroup.com,12,1,,,,Physician-Owned
+gen2med.com,375,1,,,,Physician-Owned
+medwork.io,6,3,,,,Physician-Owned
+stoughtonhealth.com,4,1,,,,Physician-Owned
+healthfirst.com,1,1,,,,Physician-Owned
+orthomedstaffing.comdisp-1957417,1,1,,,,Physician-Owned
+drdaviddupree.com,2,1,,,,Physician-Owned
+prremierchoicebill.com,9,1,,,,Physician-Owned
+envisionhealth.com5,2,1,,,,Physician-Owned
+eiltebillingllc.com,2,1,,,,Physician-Owned
+wvumedicine.org,4,3,,,,Physician-Owned
+khcfirm.com,1270,66,KHC Firm,Law firm,KHC Firm,Law Firm
+e-codesolutions.com,227,7,,,,Physician-Owned
+saparm.com-b,1,1,,,,Physician-Owned
+iairm.com424-352-0743,2,1,,,,Physician-Owned
+omsmedbillling.com,1,1,,,,Physician-Owned
+atlanticnueorcare.com,2,0,,,,Physician-Owned
+nmaiom.co,1,1,,,,Physician-Owned
+strg-pa.com,82,1,,,,Physician-Owned
+shands.ufl.edu,2788,3,UF Health Shands,Hospital / health system,UF Health Shands,Hospital System
+primeheathcare.com,28,0,,,,Physician-Owned
+reproductiveimmunology.com,7,1,,,,Physician-Owned
+spinedrs.com,262,4,,,,Physician-Owned
+kofinas.org,201,6,,,,Physician-Owned
+alldataheallth.com,4,0,,,,Physician-Owned
+promedbillingsvs.com,137,3,,,,Physician-Owned
+jphealth.net,2518,2,JP Health,RCM / billing vendor,JP Health,Billing / RCM
+amprocesses.com,43,1,,,,Physician-Owned
+guardanthealth.com,141,1,,,,Physician-Owned
+apsns.net,3,1,,,,Physician-Owned
+p1rs.com,42,1,,,,Physician-Owned
+adventhealt.com,1,1,,,,Physician-Owned
+callagyreccovery.com,4,0,,,,Physician-Owned
+callagryrecovery.com,4,0,,,,Physician-Owned
+houstoncraniofacial.com,2,1,,,,Physician-Owned
+arietishealth.com,12,1,,,,Physician-Owned
+sluhn.org,14,6,,,,Physician-Owned
+hamidmirmd.com,31,2,,,,Physician-Owned
+quadax.com,1,1,,,,Physician-Owned
+med-net.info,17,3,,,,Physician-Owned
+adventhealth.comv,17,1,,,,Physician-Owned
+crhanesthesia.com,1,1,,,,Physician-Owned
+patriotcompli.com,16,4,,,,Physician-Owned
+billwell.net,287,40,,,,Physician-Owned
+lipsg.com,25,6,,,,Physician-Owned
+mbbrm.comr,6,1,,,,Physician-Owned
+bellairer.com,1,1,,,,Physician-Owned
+suffolksurgery.com,20,1,,,,Physician-Owned
+ambpllc.com,5,1,,,,Physician-Owned
+whn.care,1,0,,,,Physician-Owned
+envisionhealth.co,1,1,,,,Physician-Owned
+icare-er.com,103,4,,,,Physician-Owned
+prevailrcm.com,1401,11,Prevail RCM,RCM / billing vendor,Prevail RCM,Billing / RCM
+foundationmedicine.com,1,1,,,,Physician-Owned
+summitdocs.com,25,3,,,,Physician-Owned
+medallioncm.com,96,3,,,,Physician-Owned
+nwendometriosis.com,13,4,,,,Physician-Owned
+oharemedbill.com,19,1,,,,Physician-Owned
+alliancehealthsystems.com,3,1,,,,Physician-Owned
+callagrecovery.com,9,0,,,,Physician-Owned
+nkch.org,3,1,,,,Physician-Owned
+tech-med.com,1,1,,,,Physician-Owned
+spineepainsolutions.com,2,1,,,,Physician-Owned
+bannerhealth.com,8,6,,,,Physician-Owned
+fam-llc.comt,3,1,,,,Physician-Owned
+toetalnyc.com,1,1,,,,Physician-Owned
+versiti.org,6,1,,,,Physician-Owned
+surgerymattersllc.com,10,3,,,,Physician-Owned
+mlacinc.com,1,1,,,,Physician-Owned
+nycosmeticmd.com,15,3,,,,Physician-Owned
+idrnsa.com,6143,12,IDR NSA,IDR specialist,IDR NSA,PE / For-Profit
+spechealth.com,304,3,,,,Physician-Owned
+mssm.edu,39,3,,,,Physician-Owned
+guardianeuro.com,18,1,,,,Physician-Owned
+emoryhealthcare.org,215,6,,,,Physician-Owned
+trinitydialysisclinic.com,2,1,,,,Physician-Owned
+exceptionalidr.com,26,2,,,,Physician-Owned
+aaot.org,3,1,,,,Physician-Owned
+proficosurgical.com,1,1,,,,Physician-Owned
+commonsclinic.com,2,1,,,,Physician-Owned
+smiplexmed.com,3,1,,,,Physician-Owned
+longislandbraindandspine.com,7,1,,,,Physician-Owned
+aristaadvantage.com,7,2,,,,Physician-Owned
+meritain.com,1,1,,,,Physician-Owned
+knowtionhealth.com,6,5,,,,Physician-Owned
+neurosurgerynj.com,1,1,,,,Physician-Owned
+christusheatlh.org,1,1,,,,Physician-Owned
+scphealth.comb,1,1,,,,Physician-Owned
+alladathealth.com,2,0,,,,Physician-Owned
+plutushealthinc.comz,1,1,,,,Physician-Owned
+r1rcm.comaetna,1,1,,,,Physician-Owned
+gmail.co,1,1,,,,Physician-Owned
+luriechildrens.org,1,1,,,,Physician-Owned
+healthcare.com,1,1,,,,Physician-Owned
+ftp.com,1,1,,,,Physician-Owned
+americaer.com,2,2,,,,Physician-Owned
+radpmg.comom,1,0,,,,Physician-Owned
+rightmedicalbilling.comq,5,1,,,,Physician-Owned
+aah.com,1,0,,,,Physician-Owned
+gottliebandgreendspan.com,1,0,,,,Physician-Owned
+mediservltd.com,1,1,,,,Physician-Owned
+lihandcdenter.com,1,1,,,,Physician-Owned
+mlh.og,1,1,,,,Physician-Owned
+browphysicians.org,1,1,,,,Physician-Owned
+totalcare.ussh,1,1,,,,Physician-Owned
+omemedbilling.com,1,1,,,,Physician-Owned
+usrcm.met,1,1,,,,Physician-Owned
+mehlingbilliong.com,1,1,,,,Physician-Owned
+northwellhealth.edu,1,1,,,,Physician-Owned
+edwinkwon.com,4,1,,,,Physician-Owned
+unitreddx.com,1,1,,,,Physician-Owned
+elitebilllingandcollection.com,1,1,,,,Physician-Owned
+northjerseyspinegroup.com,4,1,,,,Physician-Owned
+callagylae.com,1,1,,,,Physician-Owned
+rightmedialbilling.com,2,1,,,,Physician-Owned
+siparadim.com,1,1,,,,Physician-Owned
+spine-nyc.com,1,1,,,,Physician-Owned
+uniterdionm.com,1,1,,,,Physician-Owned
+halomd.comv,1,1,,,,Physician-Owned
+pmimed.biz,1,1,,,,Physician-Owned
+epiomneuro.cm,3,1,,,,Physician-Owned
+totalare.us,1,1,,,,Physician-Owned
+mdcapitaladvisors.comp,1,1,,,,Physician-Owned
+agshealth.com337-609-2720,1,1,,,,Physician-Owned
+orthomedstaffing.comy7777777777,1,1,,,,Physician-Owned
+shbcllc.om,1,1,,,,Physician-Owned
+modernorthonj.com,1,1,,,,Physician-Owned
+ameriacaser.com,1,1,,,,Physician-Owned
+primehealthcare.comq,1,0,,,,Physician-Owned
+empireradrm.co,15,1,,,,Physician-Owned
+altamed.com,1,0,,,,Physician-Owned
+mmclawgroup.com,1,1,,,,Physician-Owned
+mdcapitaladvisors.com71,2,1,,,,Physician-Owned
+klausnerinstitute.com,5,1,,,,Physician-Owned
+pediatix.com,4,1,,,,Physician-Owned
+frthesurgeons.com,2,1,,,,Physician-Owned
+elitebilling.com,1,1,,,,Physician-Owned
+ivinsonhospital.org,1,1,,,,Physician-Owned
+specialtycare.netr,1,1,,,,Physician-Owned
+bcbsil.com,1,1,,,,Physician-Owned
+halomd.comokay,1,1,,,,Physician-Owned
+alignedortho.com,2,1,,,,Physician-Owned
+mbmplus.org,1,1,,,,Physician-Owned
+networkspine.com,1,1,,,,Physician-Owned
+rcha.net,1,1,,,,Physician-Owned
+usap.co,1,1,,,,Physician-Owned
+teamhealth.comle,1,1,,,,Physician-Owned
+empireradrm.com424-352-0743,1,1,,,,Physician-Owned
+callagyrcovery.com,1,0,,,,Physician-Owned
+aristasolutionsinc.com,2,2,,,,Physician-Owned
+kyleer.comz,1,1,,,,Physician-Owned
+statspecialtyhospital.com,1,1,,,,Physician-Owned
+agshealth.comcom,1,1,,,,Physician-Owned
+preferedbillingaz.com,1,1,,,,Physician-Owned
+cnsmd.com,1,1,,,,Physician-Owned
+mhnetwork.org,1,1,,,,Physician-Owned
+parkavenuemedicine.com,1,1,,,,Physician-Owned
+iaatpa.com,1,0,,,,Physician-Owned

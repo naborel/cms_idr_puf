@@ -39,34 +39,52 @@ SELECT f, CASE WHEN greatest(ed,rad,anes,ionm,lab)<35 THEN 'Mixed'
        WHEN anes>=greatest(ed,rad,ionm,lab)   THEN 'Anesthesia'
        WHEN ionm>=greatest(ed,rad,anes,lab)   THEN 'Neuromonitoring'
        ELSE 'Lab & pathology' END specialty FROM (
-  SELECT pf.filer_group f,
+  SELECT pf.filer_parent f,
     100.0*sum(CASE WHEN sc BETWEEN 99281 AND 99292 THEN 1 ELSE 0 END)/count(*) ed,
     100.0*sum(CASE WHEN sc BETWEEN 70000 AND 79999 THEN 1 ELSE 0 END)/count(*) rad,
     100.0*sum(CASE WHEN sc BETWEEN 0 AND 1999 THEN 1 ELSE 0 END)/count(*) anes,
     100.0*sum(CASE WHEN sc IN (95938,95939,95940,95941,95955,95822) THEN 1 ELSE 0 END)/count(*) ionm,
     100.0*sum(CASE WHEN sc BETWEEN 80000 AND 89999 THEN 1 ELSE 0 END)/count(*) lab
-  FROM b JOIN pf ON b.pd=pf.dom WHERE pf.filer_group IS NOT NULL GROUP BY 1)""")
+  FROM b JOIN pf ON b.pd=pf.dom WHERE pf.filer_parent IS NOT NULL GROUP BY 1)""")
 recs=lambda df: json.loads(df.to_json(orient='records'))
 Q=lambda s: con.execute(s).df()
 
 D=json.load(open(DJ, encoding='utf-8'))
 
+# Grouped by filer_parent, not filer_group. Radiology Partners files under each affiliated
+# practice's own name and NPIs, so ungrouped it appears as five separate mid-sized filers
+# rather than the largest filer in the country.
 D['provider_groups']=recs(Q(f"""
-SELECT pf.filer_group pgroup, mode(pf.filer_type) pcat, any_value(s.specialty) specialty,
+SELECT pf.filer_parent pgroup, mode(pf.filer_class) pcat, any_value(s.specialty) specialty,
   count(*) lines, count(DISTINCT disp) disputes,
   round(100.0*count(*)/{TOT},2) share_pct,
   round(100.0*sum(pw)/nullif(count(pw),0),1) prov_win_pct,
   round(100.0*avg(isd),1) default_pct,
   round(median(pm),2) med_prov_mult, round(median(prm),2) med_prev_mult
-FROM b JOIN pf ON b.pd=pf.dom LEFT JOIN spec s ON s.f=pf.filer_group
-WHERE pf.filer_group IS NOT NULL GROUP BY 1 ORDER BY lines DESC LIMIT 25"""))
+FROM b JOIN pf ON b.pd=pf.dom LEFT JOIN spec s ON s.f=pf.filer_parent
+WHERE pf.filer_parent IS NOT NULL GROUP BY 1 ORDER BY lines DESC LIMIT 25"""))
 
+# The practices behind any rolled-up parent, so the table can show what it combined.
+_aff = recs(Q("""
+SELECT pf.filer_parent pgroup, pf.filer_group AS "name", count(*) lines,
+  round(100.0*sum(pw)/nullif(count(pw),0),1) prov_win_pct,
+  round(median(pm),2) med_prov_mult
+FROM b JOIN pf ON b.pd=pf.dom
+WHERE pf.filer_parent IS NOT NULL AND pf.filer_group<>pf.filer_parent
+GROUP BY 1,2 ORDER BY lines DESC"""))
+for _r in D['provider_groups']:
+    _k=[a for a in _aff if a['pgroup']==_r['pgroup']]
+    if _k: _r['affiliates']=[{k:v for k,v in a.items() if k!='pgroup'} for _i,a in enumerate(_k)]
+
+# Categories are now what the filer IS economically. The clinical labels they replace
+# (Radiology group, Anesthesia group, Emergency dept operator) only repeated the Specialty
+# column; these say who captures the money.
 D['provider_categories']=recs(Q("""
-SELECT pf.filer_type pcat, count(*) lines, count(DISTINCT pf.dom) filers,
+SELECT pf.filer_class pcat, count(*) lines, count(DISTINCT pf.dom) filers,
   count(DISTINCT b.disp) disputes,
   round(100.0*sum(pw)/nullif(count(pw),0),1) prov_win_pct,
   round(100.0*avg(isd),1) default_pct, round(median(pm),2) med_prov_mult
-FROM b JOIN pf ON b.pd=pf.dom WHERE pf.filer_group IS NOT NULL
+FROM b JOIN pf ON b.pd=pf.dom WHERE pf.filer_class IS NOT NULL
 GROUP BY 1 ORDER BY lines DESC"""))
 
 D['carriers']=recs(Q(f"""
@@ -110,13 +128,13 @@ GROUP BY 1,2 ORDER BY (SELECT count(*) FROM b b2 JOIN cm c2 ON b2.hn=c2.nm AND b
                        WHERE c2.carrier_group=cm.carrier_group) DESC, b.q"""))
 
 D['provider_quarterly']=recs(Q(f"""
-SELECT pf.filer_group pgroup, b.q, count(*) lines, count(DISTINCT b.disp) disputes,
+SELECT pf.filer_parent pgroup, b.q, count(*) lines, count(DISTINCT b.disp) disputes,
   round(100.0*sum(pw)/nullif(count(pw),0),2) prov_win_pct,
   round(100.0*avg(isd),2) default_pct, round(median(pm),2) med_prov_mult
 FROM b JOIN pf ON b.pd=pf.dom
-WHERE pf.filer_group IN ({qlist(TOPP)})
+WHERE pf.filer_parent IN ({qlist(TOPP)})
 GROUP BY 1,2 ORDER BY (SELECT count(*) FROM b b3 JOIN pf p3 ON b3.pd=p3.dom
-                       WHERE p3.filer_group=pf.filer_group) DESC, b.q"""))
+                       WHERE p3.filer_parent=pf.filer_parent) DESC, b.q"""))
 
 
 # Year-over-year default rate for the top plans. The three quarterly line charts this replaces
